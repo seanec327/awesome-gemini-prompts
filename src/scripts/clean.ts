@@ -164,7 +164,13 @@ async function main() {
       c.contents && 
       Array.isArray(c.contents) && 
       c.tags && 
-      c.tags.length > 0
+      c.tags.length > 0 &&
+      // Basic Quality Filter for Structured/Community Data
+      c.title && c.title.length > 3 &&
+      c.description && c.description.length > 5 &&
+      !c.title.toLowerCase().includes('test prompt') &&
+      !c.title.toLowerCase().includes('test title') &&
+      c.title.toLowerCase() !== 'test'
   );
   
   const unstructuredCandidates = newCandidates.filter(c => 

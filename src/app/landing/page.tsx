@@ -50,7 +50,11 @@ const FEATURED_PROMPTS: GeminiPrompt[] = [
   }
 ];
 
-export default function LandingPage() {
+interface LandingPageProps {
+  promptCount?: number;
+}
+
+export default function LandingPage({ promptCount = 1792 }: LandingPageProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const router = useRouter();
 
@@ -80,7 +84,7 @@ export default function LandingPage() {
           <div className="flex flex-col justify-center space-y-6 lg:space-y-8 text-left">
             <div className="inline-flex w-fit items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 text-[9px] font-mono text-zinc-400 uppercase tracking-widest">
                <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse"></span>
-               1,819 verified prompts • Ingested from GitHub & Reddit
+               {promptCount.toLocaleString()} verified prompts • Ingested from GitHub & Reddit
             </div>
             
             <div className="space-y-3">
