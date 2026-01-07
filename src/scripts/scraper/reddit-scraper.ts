@@ -119,7 +119,7 @@ export async function scrapeReddit(): Promise<any[]> {
               upvotes: post.ups,
               comments: post.num_comments
           },
-          modality: imageUrls.length > 0 ? ['image'] : ['text']
+          // Note: modality is determined by cleaner.ts based on content analysis
       });
   };
 
@@ -128,20 +128,32 @@ export async function scrapeReddit(): Promise<any[]> {
       console.log(`\n🔎 Scanning r/${sub}...`);
       
       // 1. Hot (Default Listing)
-      const hotData = await fetchJson(`https://www.reddit.com/r/${sub}/hot.json?limit=25`);
+      const hotData = await fetchJson(`https://www.reddit.com/r/${sub}/hot.json?limit=100`);
       if (hotData?.data?.children) {
           hotData.data.children.forEach((child: any) => processPost(child.data, sub, 'Hot'));
       }
 
       // 2. Top Month (High Quality)
-      const topData = await fetchJson(`https://www.reddit.com/r/${sub}/top.json?t=month&limit=25`);
+      const topData = await fetchJson(`https://www.reddit.com/r/${sub}/top.json?t=month&limit=100`);
       if (topData?.data?.children) {
           topData.data.children.forEach((child: any) => processPost(child.data, sub, 'Top-Month'));
       }
 
+      // 2b. Top All Time (Historical Best)
+      const topAllData = await fetchJson(`https://www.reddit.com/r/${sub}/top.json?t=all&limit=100`);
+      if (topAllData?.data?.children) {
+          topAllData.data.children.forEach((child: any) => processPost(child.data, sub, 'Top-AllTime'));
+      }
+
+      // 2c. New (Fresh Content)
+      const newData = await fetchJson(`https://www.reddit.com/r/${sub}/new.json?limit=100`);
+      if (newData?.data?.children) {
+          newData.data.children.forEach((child: any) => processPost(child.data, sub, 'New'));
+      }
+
       // 3. Search (Specific Keywords) - Targeted High Value
       // We search for "System Instruction" specifically as it yields high quality structured prompts
-      const searchUrl = `https://www.reddit.com/r/${sub}/search.json?q="system instruction"&restrict_sr=1&sort=relevance&t=all&limit=10`;
+      const searchUrl = `https://www.reddit.com/r/${sub}/search.json?q="system instruction"&restrict_sr=1&sort=relevance&t=all&limit=50`;
       try {
           const searchData = await fetchJson(searchUrl);
           if (searchData?.data?.children) {

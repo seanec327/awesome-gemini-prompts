@@ -8,6 +8,7 @@ import { batchCleanPrompts } from './cleaner';
 const DATA_DIR = path.join(process.cwd(), 'data');
 const PROMPTS_FILE = path.join(DATA_DIR, 'prompts.json');
 const RAW_FILE = path.join(DATA_DIR, 'raw.json');
+const PROCESSED_KEYS_FILE = path.join(DATA_DIR, 'processed_keys.json'); // Track processed candidates
 
 async function main() {
   console.log('🧹 Starting Gemini Prompt Cleaner...');
@@ -19,7 +20,17 @@ async function main() {
     existingPrompts = JSON.parse(fileContent);
     console.log(`📦 Loaded ${existingPrompts.length} existing production prompts.`);
   } catch (error) {
-    console.log('Mw Creating new production data file.');
+    console.log('📦 Creating new production data file.');
+  }
+
+  // 1b. Load processed keys (candidates already sent to LLM, whether accepted or rejected)
+  let processedKeys: Set<string> = new Set();
+  try {
+    const keysContent = await fs.readFile(PROCESSED_KEYS_FILE, 'utf-8');
+    processedKeys = new Set(JSON.parse(keysContent));
+    console.log(`📋 Loaded ${processedKeys.size} previously processed candidate keys.`);
+  } catch (error) {
+    console.log('📋 No processed keys file found, starting fresh.');
   }
 
   // 2. Load raw candidates from multiple sources
@@ -51,7 +62,7 @@ async function main() {
   const normalizeUrl = (url: string) => {
     try {
       const u = new URL(url);
-      return u.origin + u.pathname;
+      return u.origin + u.pathname + u.hash;
     } catch {
       return url.trim();
     }
@@ -105,11 +116,24 @@ async function main() {
     }
   });
 
+  const candidateKeys = new Set<string>();
+  const candidateContent = new Set<string>();
+
   const newCandidates = rawCandidates.filter(candidate => {
-     // 1. Check Identity (URL / Title)
+     // 0. Check if already processed by LLM (regardless of accept/reject)
      const key = getPromptKey(candidate);
+     if (processedKeys.has(key)) {
+         return false; // Skip - already processed in a previous run
+     }
+
+     // 1. Check Identity (URL / Title) - already in production
      if (uniqueKeys.has(key)) {
          return false; 
+     }
+
+     // 1b. Check duplicate within new candidates batch
+     if (candidateKeys.has(key)) {
+         return false;
      }
 
      // 2. Check Content (Strict)
@@ -117,10 +141,16 @@ async function main() {
      if (contentFingerprint.length > 10 && seenContent.has(contentFingerprint)) {
          return false; // Content duplicate found!
      }
+     if (contentFingerprint.length > 10 && candidateContent.has(contentFingerprint)) {
+         return false; // Batch duplicate found!
+     }
      
-     uniqueKeys.add(key);
+     // Do NOT add to uniqueKeys yet! Only add to candidateKeys.
+     // uniqueKeys will be updated in the final merge step.
+     candidateKeys.add(key);
+
      if (contentFingerprint.length > 10) {
-        seenContent.add(contentFingerprint);
+        candidateContent.add(contentFingerprint);
      }
      return true;
   });
@@ -150,12 +180,51 @@ async function main() {
   let cleanedPrompts: GeminiPrompt[] = [];
   if (unstructuredCandidates.length > 0) {
       cleanedPrompts = await batchCleanPrompts(unstructuredCandidates);
+      
+      // Mark all unstructured candidates as processed (whether accepted or rejected)
+      unstructuredCandidates.forEach(c => {
+          processedKeys.add(getPromptKey(c));
+      });
   } else {
       console.log("✨ No unstructured candidates to clean.");
   }
+
+  // Mark structured candidates as processed too
+  structuredCandidates.forEach(c => {
+      processedKeys.add(getPromptKey(c));
+  });
+
+  // Save processed keys for incremental processing
+  await fs.writeFile(PROCESSED_KEYS_FILE, JSON.stringify([...processedKeys], null, 2));
+  console.log(`📋 Saved ${processedKeys.size} processed keys for incremental tracking.`);
   
   // 5. Merge and Save
-  const allPrompts = [...existingPrompts, ...structuredCandidates, ...cleanedPrompts];
+  // Apply deduplication to ALL new prompts (both structured and cleaned)
+  const allNewPrompts = [...structuredCandidates, ...cleanedPrompts];
+  
+  const finalNewPrompts = allNewPrompts.filter(newPrompt => {
+    const key = getPromptKey(newPrompt);
+    if (uniqueKeys.has(key)) {
+      console.log(`   ⚠️ Duplicate by key skipped: "${newPrompt.title}"`);
+      return false;
+    }
+
+     const fingerprint = getNormalizedContent(newPrompt);
+    if (fingerprint.length > 10 && seenContent.has(fingerprint)) {
+      console.log(`   ⚠️ Duplicate by content skipped: "${newPrompt.title}"`);
+      return false;
+    }
+
+    uniqueKeys.add(key);
+    if (fingerprint.length > 10) {
+      seenContent.add(fingerprint);
+    }
+    return true;
+  });
+
+  console.log(`✅ After final deduplication: ${finalNewPrompts.length} new prompts to add.`);
+  
+  const allPrompts = [...existingPrompts, ...finalNewPrompts];
   
   // Add placeholder if empty
   if (allPrompts.length === 0) {

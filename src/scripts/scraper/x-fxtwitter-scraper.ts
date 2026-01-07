@@ -18,11 +18,34 @@ const OUTPUT_FILE = path.join(DATA_DIR, 'x.json');
 
 // Accounts known to share Gemini prompts
 const PROMPT_ACCOUNTS = [
+    // Official Accounts
     'NanoBanana',
     'GeminiApp', 
     'GoogleAI',
     'GoogleDeepMind',
-    // Add more accounts here
+    'labsdotgoogle',
+    'aabordes',  // Google AI research
+    
+    // Popular AI Prompt Creators
+    'godofprompt',
+    'alex_prompter',
+    'AIinPeak',
+    'venturetwins',
+    'minchoi',
+    'mr_vino_',
+    'rowancheung',
+    'dannypostmaa',
+    'LinusEkenstam',
+    
+    // AI Art / Image Generation
+    'ciguleva',
+    'icreatelife',
+    'HBCoop_',
+    
+    // AI Tools & Tips
+    'TheRundownAI',
+    'AIWarehouse_',
+    'haborr',
 ];
 
 // Search queries to find prompts via Google (for manual discovery)

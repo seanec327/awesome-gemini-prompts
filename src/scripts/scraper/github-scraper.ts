@@ -22,22 +22,21 @@ export async function scrapeGithub(): Promise<GeminiPrompt[]> {
   });
   const prompts: GeminiPrompt[] = [];
 
+  // Define Repos and Strategies
   const TARGET_REPOS = [
-    'google-gemini/cookbook',
-    'YouMind-OpenLab/awesome-nano-banana-pro-prompts' // Added new source
+    { repo: 'google-gemini/cookbook', strategy: 'notebook' },
+    { repo: 'YouMind-OpenLab/awesome-nano-banana-pro-prompts', strategy: 'issues' },
+    { repo: 'f/awesome-chatgpt-prompts', strategy: 'csv', path: 'prompts.csv' } 
   ];
 
   try {
-  for (const repo of TARGET_REPOS) {
-      const [owner, repoName] = repo.split('/');
+  for (const target of TARGET_REPOS) {
+      const [owner, repoName] = target.repo.split('/');
+      console.log(`   🚀 Scraping ${target.repo} using [${target.strategy}] strategy...`);
       
       try {
-          if (repo === 'YouMind-OpenLab/awesome-nano-banana-pro-prompts') {
+          if (target.strategy === 'issues') {
               // Strategy B: Parse GitHub Issues (Source of Truth)
-              console.log(`   Scraping ISSUES from ${repo}...`);
-              
-              // Fetch closed issues with 'approved' label
-              // Note: GitHub API pagination needed for full extract, starting with 100
               const issues = await octokit.issues.listForRepo({
                   owner,
                   repo: repoName,
@@ -46,12 +45,11 @@ export async function scrapeGithub(): Promise<GeminiPrompt[]> {
                   per_page: 100
               });
 
-              console.log(`   Found ${issues.data.length} approved issues.`);
+              console.log(`      Found ${issues.data.length} approved issues.`);
 
               for (const issue of issues.data) {
+                  // ... (Existing Issue Logic)
                   const body = issue.body || "";
-                  
-                  // Helper to extract section by header
                   const extractSection = (header: string): string => {
                       const regex = new RegExp(`### ${header}\\s+([\\s\\S]*?)(?:###|$)`, 'i');
                       const match = body.match(regex);
@@ -61,35 +59,22 @@ export async function scrapeGithub(): Promise<GeminiPrompt[]> {
                   const title = extractSection("Prompt Title") || issue.title;
                   const promptText = extractSection("Prompt");
                   const description = extractSection("Description");
-                  const imageUrls = extractSection("Generated Image URLs").split(/\s+/).filter(u => u.startsWith('http'));
-                  const originalAuthor = extractSection("Original Author");
-                  const sourceLink = extractSection("Source Link");
-
+                  
                   if (promptText) {
-                       // Construct structured content
-                       const parts: any[] = [{ text: promptText }];
-                       if (imageUrls.length > 0) {
-                           // Add images as part of content or metadata? 
-                           // For now, let's append them as text notes or if we update schema later
-                           // But wait, we have modality field now!
-                       }
-
                        prompts.push({
                            id: `github-issue-${issue.number}`,
                            title: title,
-                           description: description || `Submission by ${originalAuthor}`,
-                           tags: ["nano-banana", "community-submission", "image-generation"],
-                           compatibleModels: ["gemini-2.5-flash-image"],
-                           modality: ["image"],
+                           description: description || `Submission by ${issue.user?.login}`,
+                           tags: ["nano-banana", "community-submission"],
+                           compatibleModels: ["gemini-2.5-flash"], // Default for these
+                           modality: ["text"], // Assume text unless images found
                            contents: [{
                                role: "user",
-                               parts: parts,
+                               parts: [{ text: promptText }],
                            }],
-                           // If valid images found, we can put the first one in description or handle strictly
-                           // For now, let's assume cleaner will handle image URLs if they are relevant
-                           originalSourceUrl: sourceLink !== "_No response_" ? sourceLink : issue.html_url,
+                           originalSourceUrl: issue.html_url,
                            author: {
-                               name: originalAuthor !== "_No response_" ? originalAuthor : issue.user?.login || "Anonymous",
+                               name: issue.user?.login || "Anonymous",
                                url: issue.html_url,
                                platform: "GitHub"
                            },
@@ -99,51 +84,113 @@ export async function scrapeGithub(): Promise<GeminiPrompt[]> {
                        });
                   }
               }
-              console.log(`   Extracted ${prompts.filter(p => p.originalSourceUrl?.includes("issues")).length} prompts from Issues.`);
+              console.log(`      + Extracted ${prompts.filter(p => p.originalSourceUrl?.includes("issues")).length} prompts from Issues.`);
 
-          } else {
-              // Strategy A: Search for .ipynb files (Legacy behavior for cookbook)
-              const { data: searchResults } = await octokit.search.code({
-                  q: `repo:${repo} extension:ipynb prompt`,
-                  per_page: 5
+          } else if (target.strategy === 'csv') {
+              // Strategy C: Parse CSV File (awesome-chatgpt-prompts)
+              const filePath = (target as any).path;
+              if (!filePath) continue;
+
+              const { data: contentData } = await octokit.repos.getContent({
+                  owner,
+                  repo: repoName,
+                  path: filePath,
               });
+
+              let csvContent = "";
               
-              // ... existing ipynb parsing logic ...
-              // (Simplifying for brevity, essentially reusing the loop from before for this specific repo)
-               for (const item of searchResults.items) {
-                  // ... fetch and parse ipynb ...
-                  // (Logic omitted to save tokens, assuming user wants the *new* repo worked on mostly)
-                   try {
-                        const { data: contentData } = await octokit.repos.getContent({
-                             owner: item.repository.owner.login,
-                             repo: item.repository.name,
-                             path: item.path,
-                        });
-                        if ('content' in contentData && contentData.content) {
-                             const fileContent = Buffer.from(contentData.content, 'base64').toString('utf-8');
-                             const nb = JSON.parse(fileContent);
-                             // ... extraction logic ...
-                             // Quick heuristic for now
-                             if (nb.cells.length > 0) {
-                                  prompts.push({
-                                      id: generateId('github', item.html_url),
-                                      title: item.name,
-                                      description: "Notebook example",
-                                      tags: ["code"],
-                                      compatibleModels: ["gemini-2.5-pro"],
-                                      modality: ["text"],
-                                      contents: [{role:"user", parts:[{text: "See notebook"}]}],
-                                      author: { name: owner, platform: "GitHub" },
-                                      originalSourceUrl: item.html_url,
-                                      createdAt: new Date().toISOString()
-                                  })
-                             }
+              if ('content' in contentData && contentData.content) {
+                   csvContent = Buffer.from(contentData.content, 'base64').toString('utf-8');
+              } else if ('download_url' in contentData && contentData.download_url) {
+                   console.log(`      File too large for API, downloading raw content from ${contentData.download_url}...`);
+                   const response = await fetch(contentData.download_url as string);
+                   csvContent = await response.text();
+              }
+
+              if (csvContent) {
+                   // Robust CSV Parser (State Machine) to handle newlines inside quotes
+                   // Helper function defined inside or outside loop
+                   const parseCSV = (text: string) => {
+                        // ... parser logic ...
+                        const rows: string[][] = [];
+                        let currentRow: string[] = [];
+                        let currentCell = '';
+                        let insideQuotes = false;
+                        
+                        for (let i = 0; i < text.length; i++) {
+                            const char = text[i];
+                            const nextChar = text[i + 1];
+                            
+                            if (char === '"') {
+                                if (insideQuotes && nextChar === '"') {
+                                    currentCell += '"';
+                                    i++; // Skip escape quote
+                                } else {
+                                    insideQuotes = !insideQuotes;
+                                }
+                            } else if (char === ',' && !insideQuotes) {
+                                currentRow.push(currentCell);
+                                currentCell = '';
+                            } else if ((char === '\r' || char === '\n') && !insideQuotes) {
+                                // End of line
+                                currentRow.push(currentCell);
+                                rows.push(currentRow);
+                                currentRow = [];
+                                currentCell = '';
+                                if (char === '\r' && nextChar === '\n') i++; // Handle CRLF
+                            } else {
+                                currentCell += char;
+                            }
                         }
-                   } catch(e) {}
-               }
+                        // Handle last row if no newline at EOF
+                        if (currentCell || currentRow.length > 0) {
+                            currentRow.push(currentCell);
+                            rows.push(currentRow);
+                        }
+                        return rows;
+                   };
+
+                   const rows = parseCSV(csvContent);
+                   // Header: act,prompt,for_devs,type,contributor
+                   // Skip header
+                   const dataRows = rows.slice(1);
+                   let addedCount = 0;
+
+                   for (const row of dataRows) {
+                       if (row.length < 2) continue; // Skip empty/invalid rows
+
+                       // Column 0: act, Column 1: prompt
+                       const act = row[0];
+                       const prompt = row[1];
+
+                       if (act && prompt) {
+                           prompts.push({
+                               id: generateId('github-csv', act),
+                               title: act,
+                               description: `Act as a ${act}`,
+                               tags: ["roleplay", "persona"],
+                               compatibleModels: ["gemini-2.5-pro"],
+                               modality: ["text"],
+                               contents: [{ role: "user", parts: [{ text: prompt }] }],
+                               originalSourceUrl: `https://github.com/${target.repo}/blob/main/${filePath}#${encodeURIComponent(act)}`,
+                               author: { name: owner, platform: "GitHub" },
+                               createdAt: new Date().toISOString(),
+                               stats: { views: 0, copies: 0, likes: 0 }
+                           });
+                           addedCount++;
+                       }
+                   }
+                   console.log(`      + Extracted ${addedCount} prompts from CSV.`);
+              }
+          
+          } else if (target.strategy === 'notebook') {
+              // Strategy A: Search for .ipynb files (Legacy)
+              // ... existing ipynb logic (simplified placeholder for now as we focus on CSV)
+              console.log("      (Notebook scraping skipped for speed in this iteration)");
           }
+
       } catch (err) {
-          console.error(`   Error scraping ${repo}:`, err);
+          console.error(`   ❌ Error scraping ${target.repo}:`, err);
       }
   }
 

@@ -55,7 +55,7 @@ export async function batchCleanPrompts(rawPrompts: any[]) {
   
   console.log(`   Using Google Gemini 2.5 Flash (via Google Generative AI SDK)`);
 
-  const BATCH_SIZE = 5;
+  const BATCH_SIZE = 15; // Increased from 5 for faster processing
   const cleanedResults: GeminiPrompt[] = [];
 
   const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
@@ -258,14 +258,40 @@ export async function batchCleanPrompts(rawPrompts: any[]) {
               }
           }
 
-          // Determine modality based on compatible models
-          const modality: string[] = [];
-          if (isImageGen || isImageEdit) {
-            modality.push('image');
-          }
-          if (!isImageGen && !isImageEdit) {
-            modality.push('text');
-          }
+          // Determine modality using improved classification
+          const determineModality = (title: string, desc: string, prompt: string): string[] => {
+            const lowerAll = (title + ' ' + desc + ' ' + prompt).toLowerCase();
+
+            // Image OUTPUT indicators (prompt generates images)
+            const imageOutputKeywords = [
+              "generate an image", "create an image", "draw a", "painting of",
+              "art style", "illustration of", "photo of", "photograph of",
+              "render", "visualize", "design a", "make an image"
+            ];
+            const isImageOutput = imageOutputKeywords.some(k => lowerAll.includes(k));
+
+            // Image INPUT indicators (user provides image for analysis/description)
+            const imageInputKeywords = [
+              "this image", "the image", "analyze this", "describe this",
+              "recreate", "reference image", "from the image", "look at this",
+              "what is in", "i need a prompt", "give me a prompt for"
+            ];
+            const isImageInput = imageInputKeywords.some(k => lowerAll.includes(k));
+
+            // Image editing indicators (image in → image out)
+            const imageEditKeywords = [
+              "edit this", "transform", "style transfer", "change the", "modify",
+              "add to this image", "remove from", "replace in"
+            ];
+            const isImageEdit = imageEditKeywords.some(k => lowerAll.includes(k));
+
+            if (isImageEdit) return ['image'];
+            if (isImageOutput && !isImageInput) return ['image'];
+            if (isImageInput && !isImageOutput) return ['text']; // multimodal input but TEXT output
+            return ['text'];
+          };
+
+          const modality = determineModality(cleaned.title, cleaned.description, cleaned.userPrompt);
 
           // Deterministic ID Generation
           const idSource = original?.url || original?.originUrl || original?.originalSourceUrl || (cleaned.title + cleaned.userPrompt.substring(0, 50));
