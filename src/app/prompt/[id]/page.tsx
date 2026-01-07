@@ -191,12 +191,12 @@ export default async function PromptDetailPage(props: PageProps) {
                 <span className="w-1 h-6 bg-pink-500 rounded-full"></span>
                 Visual Result
              </h3>
-             <div className="relative h-[400px] w-full rounded-xl overflow-hidden border border-white/10">
+             <div className="relative w-full rounded-xl overflow-hidden border border-white/10 bg-zinc-900">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img 
                   src={prompt.images[0].url} 
                   alt={prompt.images[0].alt || "Prompt Result"} 
-                  className="w-full h-full object-cover"
+                  className="w-full max-h-[600px] object-contain mx-auto"
                 />
              </div>
            </section>
