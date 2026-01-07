@@ -147,10 +147,10 @@ export default function LandingPage() {
                {/* Card 1: Left - Focus on Hover */}
                <motion.div 
                  variants={{
-                   rest: { rotate: -12, x: -25, y: 15, scale: 0.88, zIndex: 10, opacity: 0.9, filter: 'blur(0px)' },
-                   hover: { rotate: -20, x: -110, y: 30, scale: 0.92, zIndex: 30, opacity: 1, filter: 'blur(0px)' }
+                   rest: { rotate: -12, x: -25, y: 15, scale: 0.82, zIndex: 10, opacity: 0.9, filter: 'blur(0px)' },
+                   hover: { rotate: -20, x: -110, y: 30, scale: 0.86, zIndex: 30, opacity: 1, filter: 'blur(0px)' }
                  }}
-                 whileHover={{ scale: 1.05, zIndex: 100, rotate: -5, y: -20, transition: { duration: 0.1 } }}
+                 whileHover={{ scale: 0.95, zIndex: 100, rotate: -5, y: -20, transition: { duration: 0.1 } }}
                  transition={{ type: "spring", stiffness: 280, damping: 22 }}
                  className="absolute inset-0 origin-bottom cursor-pointer hover:shadow-2xl hover:shadow-blue-500/20"
                >
@@ -160,10 +160,10 @@ export default function LandingPage() {
                {/* Card 2: Center - Focus on Hover */}
                <motion.div 
                  variants={{
-                   rest: { rotate: 0, x: 0, y: 0, scale: 0.95, zIndex: 30, opacity: 1 },
-                   hover: { rotate: 0, x: 0, y: -25, scale: 1, zIndex: 40, opacity: 1 }
+                   rest: { rotate: 0, x: 0, y: 0, scale: 0.88, zIndex: 30, opacity: 1 },
+                   hover: { rotate: 0, x: 0, y: -25, scale: 0.92, zIndex: 40, opacity: 1 }
                  }}
-                 whileHover={{ scale: 1.05, zIndex: 100, y: -50, transition: { duration: 0.1 } }}
+                 whileHover={{ scale: 0.95, zIndex: 100, y: -50, transition: { duration: 0.1 } }}
                  transition={{ type: "spring", stiffness: 280, damping: 22 }}
                  className="absolute inset-0 origin-bottom cursor-pointer hover:shadow-2xl hover:shadow-purple-500/20"
                >
@@ -173,10 +173,10 @@ export default function LandingPage() {
                {/* Card 3: Right - Focus on Hover */}
                <motion.div 
                  variants={{
-                   rest: { rotate: 12, x: 25, y: 15, scale: 0.88, zIndex: 10, opacity: 0.9, filter: 'blur(0px)' },
-                   hover: { rotate: 20, x: 110, y: 30, scale: 0.92, zIndex: 30, opacity: 1, filter: 'blur(0px)' }
+                   rest: { rotate: 12, x: 25, y: 15, scale: 0.82, zIndex: 10, opacity: 0.9, filter: 'blur(0px)' },
+                   hover: { rotate: 20, x: 110, y: 30, scale: 0.86, zIndex: 30, opacity: 1, filter: 'blur(0px)' }
                  }}
-                 whileHover={{ scale: 1.05, zIndex: 100, rotate: 5, y: -20, transition: { duration: 0.1 } }}
+                 whileHover={{ scale: 0.95, zIndex: 100, rotate: 5, y: -20, transition: { duration: 0.1 } }}
                  transition={{ type: "spring", stiffness: 280, damping: 22 }}
                  className="absolute inset-0 origin-bottom cursor-pointer hover:shadow-2xl hover:shadow-pink-500/20"
                >
@@ -203,12 +203,15 @@ export default function LandingPage() {
         </div>
 
         {/* 2. Model Support Showcase - Highlighting Purpose */}
-        <div className="w-full max-w-6xl mx-auto mb-32 text-center">
+        <div className="w-full max-w-6xl mx-auto mt-20 mb-32 text-center">
            <p className="text-zinc-500 uppercase text-[10px] font-bold tracking-[0.2em] mb-8">Optimized for Leading Models</p>
-           <div className="flex flex-wrap justify-center items-center gap-12 opacity-60 hover:opacity-100 transition-opacity duration-700">
-              <div className="flex items-center gap-3">
-                 <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400">
-                    <Logo className="w-6 h-6" color="currentColor" />
+           <div className="flex flex-wrap justify-center items-center gap-12 transition-opacity duration-700">
+              {/* Gemini 2.5 */}
+              <div className="flex items-center gap-4">
+                 <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center p-2 shadow-lg shadow-blue-500/20">
+                    <svg viewBox="0 0 24 24" className="w-full h-full text-blue-500" fill="currentColor">
+                       <path d="M20.616 10.835a14.147 14.147 0 01-4.45-3.001 14.111 14.111 0 01-3.678-6.452.503.503 0 00-.975 0 14.134 14.134 0 01-3.679 6.452 14.155 14.155 0 01-4.45 3.001c-.65.28-1.318.505-2.002.678a.502.502 0 000 .975c.684.172 1.35.397 2.002.677a14.147 14.147 0 014.45 3.001 14.112 14.112 0 013.679 6.453.502.502 0 00.975 0c.172-.685.397-1.351.677-2.003a14.145 14.145 0 013.001-4.45 14.113 14.113 0 016.453-3.678.503.503 0 000-.975 13.245 13.245 0 01-2.003-.678z"></path>
+                    </svg>
                  </div>
                  <div className="text-left">
                     <div className="text-sm font-bold text-white leading-none mb-1">Gemini 2.5</div>
@@ -218,9 +221,12 @@ export default function LandingPage() {
 
               <div className="w-px h-8 bg-white/10 hidden md:block" />
 
-              <div className="flex items-center gap-3">
-                 <div className="w-10 h-10 rounded-full bg-purple-500/10 flex items-center justify-center text-purple-400">
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+              {/* Gemini 3.0 */}
+              <div className="flex items-center gap-4">
+                 <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center p-2 shadow-lg shadow-purple-500/20">
+                    <svg viewBox="0 0 24 24" className="w-full h-full text-purple-500" fill="currentColor">
+                       <path d="M20.616 10.835a14.147 14.147 0 01-4.45-3.001 14.111 14.111 0 01-3.678-6.452.503.503 0 00-.975 0 14.134 14.134 0 01-3.679 6.452 14.155 14.155 0 01-4.45 3.001c-.65.28-1.318.505-2.002.678a.502.502 0 000 .975c.684.172 1.35.397 2.002.677a14.147 14.147 0 014.45 3.001 14.112 14.112 0 013.679 6.453.502.502 0 00.975 0c.172-.685.397-1.351.677-2.003a14.145 14.145 0 013.001-4.45 14.113 14.113 0 016.453-3.678.503.503 0 000-.975 13.245 13.245 0 01-2.003-.678z"></path>
+                    </svg>
                  </div>
                  <div className="text-left">
                     <div className="text-sm font-bold text-white leading-none mb-1">Gemini 3.0</div>
@@ -229,10 +235,12 @@ export default function LandingPage() {
               </div>
 
               <div className="w-px h-8 bg-white/10 hidden md:block" />
-
-              <div className="flex items-center gap-3">
-                 <div className="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400">
-                    <FaRocket className="w-4 h-4" />
+              
+              {/* Nano Banana */}
+              <div className="flex items-center gap-4">
+                 <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center overflow-hidden border border-white/10">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src="/nano-banana.jpeg" alt="Nano Banana" className="w-full h-full object-cover" />
                  </div>
                  <div className="text-left">
                     <div className="text-sm font-bold text-white leading-none mb-1">Nano Banana</div>
