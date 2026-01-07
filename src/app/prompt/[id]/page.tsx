@@ -169,7 +169,7 @@ export default async function PromptDetailPage(props: PageProps) {
               <span className="w-1 h-6 bg-pink-500 rounded-full"></span>
               Visual Result
             </h3>
-            <div className="border border-white/10 rounded-xl overflow-hidden bg-zinc-900/50">
+            <div className="relative w-full rounded-xl overflow-hidden border border-white/10 bg-zinc-900">
               <CompareSlider 
                 beforeImage={prompt.images[0].url}
                 afterImage={prompt.images[1].url}
