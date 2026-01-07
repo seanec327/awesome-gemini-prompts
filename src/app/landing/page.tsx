@@ -86,7 +86,7 @@ export default function LandingPage() {
             <div className="space-y-3">
               <h1 className="text-4xl lg:text-5xl xl:text-6xl font-black tracking-tighter leading-[1.05] text-zinc-100">
                 The Open Source Hub for<br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Gemini & Nano Banana</span>
+                <span className="text-white">Gemini & Nano Banana</span>
               </h1>
               
               <p className="text-sm lg:text-base text-zinc-400 max-w-lg leading-relaxed">
