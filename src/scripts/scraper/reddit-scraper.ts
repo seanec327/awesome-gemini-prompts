@@ -1,10 +1,21 @@
+// Gemini-focused subreddits ONLY
 const SUBREDDITS = [
-    'GoogleGeminiAI', 'GeminiAI', 'GoogleGemini', 'Bard', 'ChatGPT_Gemini', 'PromptEngineering', 'GeminiPrompts', // Text
-    'GeminiNanoBanana2', 'StableDiffusion', 'GeminiNanoBanana', 'NanoBanana_AI', 'generativeAI', // Image
+    'GoogleGeminiAI', 'GeminiAI', 'GoogleGemini', 'Bard', 'ChatGPT_Gemini', 'GeminiPrompts', // Text
+    'GeminiNanoBanana2', 'GeminiNanoBanana', 'NanoBanana_AI', // Image (Gemini only)
 ];
 
-// Keywords for "Text Search" within subreddits
-const KEYWORDS = ['prompt', 'system instruction', 'style', 'workflow', 'generation', 'nano banana'];
+// Keywords for "Text Search" within subreddits (Gemini-focused)
+const KEYWORDS = ['prompt', 'system instruction', 'style', 'workflow', 'generation', 'nano banana', 'gemini'];
+
+// Blacklist: Reject posts containing these non-Gemini model references
+const NON_GEMINI_KEYWORDS = [
+    'chatgpt', 'gpt-4', 'gpt-5', 'gpt-3', 'openai',
+    'claude', 'anthropic',
+    'midjourney', 'dall-e', 'dalle',
+    'stable diffusion', 'stablediffusion', 'comfyui', 'automatic1111', 'sd1.5', 'sdxl',
+    'seedvr', 'z-image', 'zimage',
+    'llama', 'mistral', 'qwen', // Other LLMs
+];
 
 export async function scrapeReddit(): Promise<any[]> {
   console.log('🤖 Starting Reddit Scraper (Direct JSON API Mode)...');
@@ -39,6 +50,12 @@ export async function scrapeReddit(): Promise<any[]> {
       const lowerTitle = title.toLowerCase();
       const lowerFlair = (flair || '').toLowerCase();
       const lowerContent = content.toLowerCase();
+
+      // 0. Non-Gemini Model Filter (HIGHEST PRIORITY)
+      const combinedText = `${lowerTitle} ${lowerContent}`;
+      if (NON_GEMINI_KEYWORDS.some(kw => combinedText.includes(kw))) {
+          return true; // Reject non-Gemini content
+      }
 
       // 1. Explicit Junk Flairs
       if (['question', 'help', 'discussion', 'news', 'bug', 'issue', 'request'].some(f => lowerFlair.includes(f))) {
