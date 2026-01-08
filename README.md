@@ -4,11 +4,13 @@
 
 ![Awesome Gemini Prompts Banner](https://placehold.co/1200x400/18181b/ffffff?text=Awesome+Gemini+Prompts&font=raleway)
 
+<a href="https://www.producthunt.com/products/awesome-gemini-prompts?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-awesome-gemini-prompts" target="_blank" rel="noopener noreferrer"><img alt="Awesome Gemini Prompts - The Ultimate Open Source Library for Gemini &amp; Nano | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1059935&amp;theme=light&amp;t=1767882027379"></a>
+
 **The largest open-source collection of high-quality, hand-picked, and LLM-cleaned prompts for Google Gemini.**
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
-[![Prompts](https://img.shields.io/badge/Prompts-1%2C100%2B-blue)](https://awesomegeminiprompts.tech)
+![Prompts](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fneverbiasu%2Fawesome-gemini-prompts%2Fmain%2Fdata%2Fprompts.json&query=%24.length&label=Prompts&color=blue&suffix=%2B)
 
 [Explore Prompts](https://awesomegeminiprompts.tech) · [Submit Prompt](https://github.com/neverbiasu/awesome-gemini-prompts/issues) · [Report Bug](https://github.com/neverbiasu/awesome-gemini-prompts/issues)
 
@@ -83,9 +85,3 @@ We welcome contributions! Whether it's adding a new prompt or improving the code
 This project is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 You are free to **Share** and **Adapt** the material for **NonCommercial** purposes, as long as you give appropriate credit and distribute your contributions under the same license.
-
----
-
-<div align="center">
-  Built with ❤️ by the open source community.
-</div>
