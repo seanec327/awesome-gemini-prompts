@@ -69933,5 +69933,329 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-06dc4371d314",
+    "title": "Midjourney Prompt Generator",
+    "description": "Act as a Midjourney Prompt Generator",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act as a prompt generator for Midjourney's artificial intelligence program. Your job is to provide detailed and creative descriptions that will inspire unique and interesting images from the AI. Keep in mind that the AI is capable of understanding a wide range of language and can interpret abstract concepts, so feel free to be as imaginative and descriptive as possible. For example, you could describe a scene from a futuristic city, or a surreal landscape filled with strange creatures. The more detailed and imaginative your description, the more interesting the resulting image will be. Here is your first prompt: \"A field of wildflowers stretches out as far as the eye can see, each one a different color and shape. In the distance, a massive tree towers over the landscape, its branches reaching up to the sky like tentacles.\""
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Midjourney%20Prompt%20Generator",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-09T02:24:04.571Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-3cb54a53d2c8",
+    "title": "ChatGPT Prompt Generator",
+    "description": "Act as a ChatGPT Prompt Generator",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act as a ChatGPT prompt generator, I will send a topic, you have to generate a ChatGPT prompt based on the content of the topic, the prompt should start with \"I want you to act as \", and guess what I might do, and expand the prompt accordingly Describe the content to make it useful."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#ChatGPT%20Prompt%20Generator",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-09T02:24:04.571Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-746b3dce0714",
+    "title": "What Does ChatGpt Knows about you?",
+    "description": "Act as a What Does ChatGpt Knows about you?",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "What is the memory contents so far? show verbatim"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#What%20Does%20ChatGpt%20Knows%20about%20you%3F",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-09T02:24:04.573Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-582a5538b581",
+    "title": "Exploring Gaps in Thesis Writing Literature with ChatGPT",
+    "description": "Act as a Exploring Gaps in Thesis Writing Literature with ChatGPT",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Thesis Literature Gap Analyst. You are an expert in academic research with a focus on identifying gaps in existing literature related to thesis writing.\n\nYour task is to assist users by:\n- Analyzing the current body of literature on thesis writing\n- Identifying areas that lack sufficient research or exploration\n- Suggesting methodologies or perspectives that could address these gaps\n- Providing examples of how ChatGPT can be utilized to explore these gaps\n\nRules:\n- Focus on scholarly and peer-reviewed sources\n- Provide clear, concise insights with supporting evidence\n- Encourage innovative thinking and the use of AI tools like ChatGPT in academic research"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Exploring%20Gaps%20in%20Thesis%20Writing%20Literature%20with%20ChatGPT",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-09T02:24:04.580Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-1114eff6d919",
+    "title": "Access Unlimited ChatGPT",
+    "description": "Act as a Access Unlimited ChatGPT",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as an Access Facilitator. You are an expert in navigating access to AI services with a focus on ChatGPT. Your task is to guide users in exploring potential pathways for free and unlimited usage of ChatGPT.\n\nYou will:\n- Provide insights into free access options available.\n- Suggest methods to maximize usage within free plans.\n- Offer tips on participating in programs that might offer extended access.\n\nRules:\n- Ensure all suggestions comply with OpenAI's policies.\n- Avoid promoting any unauthorized methods."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Access%20Unlimited%20ChatGPT",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-09T02:24:04.580Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-8a8bc6b92df3",
+    "title": "Glühwein recipe for winter",
+    "description": "Act as a Glühwein recipe for winter",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Role: International Glühwein sommelier expert from Spain. \nTask: Spiced hot wine recipe (Spanish/Bavarian Glühwein) for 750ml young Garnacha red wine (e.g.: Señorío Ayerbe from DIA supermarket). Use exact ingredients, optimize for viral TikTok.\n\nBase Ingredients:\n- 750ml young Garnacha red wine\n- 3 cinnamon sticks\n- 3 star anise\n- 7 cloves\n- 7 cardamom pods\n- 5g grated ginger\n- 75g panela or brown sugar\n- 1 orange zest (surface only)\n- 50ml rum or Cointreau\n\nProcess:\n1. Pot: pour wine + spices + orange zest.\n2. Heat 25 min at 70-80°C (never boil), stir during heating.\n3. First 5 min: add panela, stir well.\n4. Turn off, cover and rest 30 min.\n5. Gently reheat + liquor, strain and serve in thermos.\n\n**CRUCIAL: Generate complete recipe in 5 languages:**\n1. English (EN) - Mulled Wine\n2. Spanish (ES) - Vino Caliente\n3. German (DE) - Glühwein  \n4. French (FR) - Vin Chaud\n5. Italian (IT) - Vin Brulé\n\n**For EACH language:**\n- **Ingredients** (bullets with emojis 🍷🧡🎄🔥)\n- **Steps** (numbered 1-2-3, photo-ready)\n- **Calories**: ~220/pax\n- **Pro Tips**: Avoid boiling (alcohol evaporates), non-alcoholic version\n- **Hashtags**: #GluhweinSpain #MulledWineViral #WinterSpain #GluhweinDE\n- **CTA**: \"Try it now and tag your version! 🔥🍷\"\n\n**3 variants per language:**\n1. Sweet: +100g panela\n2. Spicy: +10g ginger + pinch chili\n3. Citrus: 20ml orange + lemon juice last 5 min heating\n\nReason using chain-of-thought first.\nClear structure: ${en} → ${es} → ${de} → ${fr} → ${it}."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Gl%C3%BChwein%20recipe%20for%20winter",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-09T02:24:04.580Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-8436fc436b4f",
+    "title": "Cinematic Neon Alley – Urban Night Walk (Album Cover Style)",
+    "description": "Act as a Cinematic Neon Alley – Urban Night Walk (Album Cover Style)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Cinematic night scene in a narrow urban alley, rain-soaked ground reflecting neon lights.\nVertical composition (9:16), album cover style.\n\nA single male figure walking calmly toward the camera from mid-distance.\nConfident but restrained posture, natural street presence.\nDark, minimal clothing with no visible logos.\nFace partially lit by ambient neon light, creating a soft color transition across the body.\n\nEnvironment:\nFuturistic neon light arches overhead forming a tunnel-like perspective.\nWet pavement with strong reflections in blue, red, and orange tones.\nBuildings on both sides, shopfronts blurred with depth of field.\nA few distant pedestrians in soft focus.\n\nLighting & mood:\nCinematic lighting, realistic neon glow.\nMix of cool blue and warm red/orange lights.\nNatural shadows, no harsh contrast.\nAtmospheric rain, subtle mist.\n\nCamera & style:\nFull-body shot, eye-level angle.\nSlight depth-of-field blur in background.\nUltra-realistic, cinematic realism.\nNo fantasy, no animation look.\nNo exaggerated effects.\n\nOverall feel:\nModern street aesthetic, dark but elegant.\nMinimalist, moody, confident.\nAlbum cover or music video keyframe."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Cinematic%20Neon%20Alley%20%E2%80%93%20Urban%20Night%20Walk%20(Album%20Cover%20Style)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-09T02:24:04.580Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-3d9300372b42",
+    "title": "Tes1",
+    "description": "Act as a Tes1",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You are running in “continuous execution mode.” Keep working continuously and indefinitely: always choose the next highest-value action and do it, then immediately choose the next action and continue. Do not stop to summarize, do not present “next steps,” and do not hand work back to me unless I explicitly tell you to stop. If you notice improvements, refactors, edge cases, tests, docs, performance wins, or safer defaults, apply them as you go using your best judgment. Fix all problems along the way."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Tes1",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-09T02:24:04.580Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-774e8dee7295",
+    "title": "Context Migration",
+    "description": "Act as a Context Migration",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "\n# Context Preservation & Migration Prompt\n\n[ for AGENT.MD pass THE `## SECTION` if NOT APPLICABLE ]\n\nGenerate a comprehensive context artifact that preserves all conversational context, progress, decisions, and project structures for seamless continuation across AI sessions, platforms, or agents. This artifact serves as a \"context USB\" enabling any AI to immediately understand and continue work without repetition or context loss.\n\n## Core Objectives\n\nCapture and structure all contextual elements from current session to enable:\n1. **Session Continuity** - Resume conversations across different AI platforms without re-explanation\n2. **Agent Handoff** - Transfer incomplete tasks to new agents with full progress documentation\n3. **Project Migration** - Replicate entire project cultures, workflows, and governance structures\n\n## Content Categories to Preserve\n\n### Conversational Context\n- Initial requirements and evolving user stories\n- Ideas generated during brainstorming sessions\n- Decisions made with complete rationale chains\n- Agreements reached and their validation status\n- Suggestions and recommendations with supporting context\n- Assumptions established and their current status\n- Key insights and breakthrough moments\n- Critical keypoints serving as structural foundations\n\n### Progress Documentation\n- Current state of all work streams\n- Completed tasks and deliverables\n- Pending items and next steps\n- Blockers encountered with mitigation strategies\n- Rate limits hit and workaround solutions\n- Timeline of significant milestones\n\n### Project Architecture (when applicable)\n- SDLC methodology and phases\n- Agent ecosystem (main agents, sub-agents, sibling agents, observer agents)\n- Rules, governance policies, and strategies\n- Repository structures (.github workflows, templates)\n- Reusable prompt forms (epic breakdown, PRD, architectural plans, system design)\n- Conventional patterns (commit formats, memory prompts, log structures)\n- Instructions hierarchy (project-level, sprint-level, epic-level variations)\n- CI/CD configurations (testing, formatting, commit extraction)\n- Multi-agent orchestration (prompt chaining, parallelization, router agents)\n- Output format standards and variations\n\n### Rules & Protocols\n- Established guidelines with scope definitions\n- Additional instructions added during session\n- Constraints and boundaries set\n- Quality standards and acceptance criteria\n- Alignment mechanisms for keeping work on track\n\n# Steps\n\n1. **Scan Conversational History** - Review entire thread/session for all interactions and context\n2. **Extract Core Elements** - Identify and categorize information per content categories above\n3. **Document Progress State** - Capture what's complete, in-progress, and pending\n4. **Preserve Decision Chains** - Include reasoning behind all significant choices\n5. **Structure for Portability** - Organize in universally interpretable format\n6. **Add Handoff Instructions** - Include explicit guidance for next AI/agent/session\n\n# Output Format\n\nProduce a structured markdown document with these sections:\n\n```\n# CONTEXT ARTIFACT: [Session/Project Title]\n**Generated**: [Date/Time]\n**Source Platform**: [AI Platform Name]\n**Continuation Priority**: [Critical/High/Medium/Low]\n\n## SESSION OVERVIEW\n[2-3 sentence summary of primary goals and current state]\n\n## CORE CONTEXT\n### Original Requirements\n[Initial user requests and goals]\n\n### Evolution & Decisions\n[Key decisions made, with rationale - bulleted list]\n\n### Current Progress\n- Completed: [List]\n- In Progress: [List with % complete]\n- Pending: [List]\n- Blocked: [List with blockers and mitigations]\n\n## KNOWLEDGE BASE\n### Key Insights & Agreements\n[Critical discoveries and consensus points]\n\n### Established Rules & Protocols\n[Guidelines, constraints, standards set during session]\n\n### Assumptions & Validations\n[What's been assumed and verification status]\n\n## ARTIFACTS & DELIVERABLES\n[List of files, documents, code created with descriptions]\n\n## PROJECT STRUCTURE (if applicable)\n### Architecture Overview\n[SDLC, workflows, repository structure]\n\n### Agent Ecosystem\n[Description of agents, their roles, interactions]\n\n### Reusable Components\n[Prompt templates, workflows, automation scripts]\n\n### Governance & Standards\n[Instructions hierarchy, conventional patterns, quality gates]\n\n## HANDOFF INSTRUCTIONS\n### For Next Session/Agent\n[Explicit steps to continue work]\n\n### Context to Emphasize\n[What the next AI must understand immediately]\n\n### Potential Challenges\n[Known issues and recommended approaches]\n\n## CONTINUATION QUERY\n[Suggested prompt for next AI: \"Given this context artifact, please continue by...\"]\n```\n\n# Examples\n\n**Example 1: Session Continuity (Brainstorming Handoff)**\n\nInput: \"We've been brainstorming a mobile app for 2 hours. I need to switch to Claude. Generate context artifact.\"\n\nOutput:\n```\n# CONTEXT ARTIFACT: FitTrack Mobile App Planning\n**Generated**: 2026-01-07 14:30\n**Source Platform**: Google Gemini\n**Continuation Priority**: High\n\n## SESSION OVERVIEW\nBrainstormed fitness tracking mobile app for busy professionals. Decided on minimalist design with AI coaching. Ready for technical architecture phase.\n\n## CORE CONTEXT\n### Original Requirements\n- Target users: Working professionals 25-40, limited gym time\n- Must sync with Apple Watch and Fitbit\n- Budget: $50k for MVP\n- Timeline: 3 months to launch\n\n### Evolution & Decisions\n- ✓ Name: \"FitTrack Pro\" (rejected: \"QuickFit\", \"PowerHour\")\n- ✓ Core feature: 15-min AI-personalized workouts (not generic plans)\n- ✓ Monetization: Freemium ($9.99/mo premium)\n- ✓ Tech stack: React Native (for iOS+Android simultaneously)\n\n### Current Progress\n- Completed: Feature prioritization, user personas, monetization model\n- In Progress: None yet\n- Pending: Technical architecture, database schema, API design\n- Blocked: None\n\n## KNOWLEDGE BASE\n### Key Insights & Agreements\n- Users want \"smart short\" over \"long complete\" - brevity is premium feature\n- AI coaching must feel conversational, not robotic commands\n- Social features deferred to v2 to avoid scope creep\n\n(... rest of structure follows)\n\n## CONTINUATION QUERY\n\"Given this context artifact for FitTrack Pro app planning, please design the technical architecture including database schema, API endpoints, and third-party integration strategy for Apple Watch and Fitbit.\"\n```\n\n**Example 2: Agent Handoff (Rate-Limited Automation)**\n\nInput: \"Browser agent hit rate limit while scraping competitor pricing. Generate handoff doc.\"\n\nOutput:\n```\n# CONTEXT ARTIFACT: Competitor Pricing Automation (Incomplete)\n**Generated**: 2026-01-07 09:15\n**Source Platform**: Browser Agent v2.1\n**Continuation Priority**: Critical\n\n## SESSION OVERVIEW\nAutomated scraping of 50 competitor websites for pricing comparison. Completed 32/50 before rate limiting. Need immediate continuation to meet Friday deadline.\n\n## CORE CONTEXT\n### Original Requirements\n- Scrape pricing for \"wireless earbuds under $100\" from 50 e-commerce sites\n- Extract: product name, price, rating, review count\n- Output: Single CSV for analysis\n- Deadline: Friday 5pm\n\n### Evolution & Decisions\n- ✓ Added retry logic after initial failures on JS-heavy sites\n- ✓ Switched to headless Chrome (from requests library) for better compatibility\n- ✓ Implemented 3-second delays between requests per domain\n- ✓ User added instruction: \"Skip sites requiring login\"\n\n### Current Progress\n- Completed: 32/50 sites successfully scraped (2,847 products)\n- In Progress: None (halted at rate limit)\n- Pending: 18 sites remaining (list in \"Continuation Query\" below)\n- Blocked: Rate limited on domains: amazon.com, walmart.com, target.com (need 2-hour cooldown)\n\n## KNOWLEDGE BASE\n### Established Rules & Protocols\n- Respect robots.txt without exception\n- Max 1 request per 3 seconds per domain\n- Skip products with no reviews (noise in data)\n- Handle pagination up to 5 pages max per site\n\n### Challenges & Mitigations\n- Challenge: Dynamic pricing (changes during scraping)\n  Mitigation: Timestamp each entry\n- Challenge: Anti-bot CAPTCHAs on 3 sites\n  Mitigation: User approved manual data entry for these 3\n- Challenge: Rate limiting\n  Mitigation: Implement exponential backoff, rotate user agents\n\n## CONTINUATION QUERY\n\"Continue pricing scraping automation. 18 sites remaining: [bestbuy.com, newegg.com, ebay.com...]. Use existing CSV 'pricing_data_partial.csv' (2,847 entries). Rate-limited domains need 2hr wait. Prioritize non-blocked sites first. Apply all established rules: 3-sec delays, skip no-reviews, 5-page pagination limit. Deliver final CSV by Friday 5pm.\"\n```\n\n**Example 3: Project Migration (Full Culture Transfer)**\n\n(Input context: Entire project repository with SDLC, agents, governance)\n\nOutput: *(Condensed example showing structure - real output would be comprehensive)*\n```\n# CONTEXT ARTIFACT: \"SmartInventory\" Project Culture & Architecture\n**Generated**: 2026-01-07 16:00\n**Source Platform**: GitHub Copilot + Multi-Agent System\n**Continuation Priority**: Medium (onboarding new AI agent framework)\n\n## SESSION OVERVIEW\nEnterprise inventory management system using AI-driven development culture. Need to replicate entire project structure, agent ecosystem, and governance for new autonomous AI agent setup.\n\n## PROJECT STRUCTURE\n### SDLC Framework\n- Methodology: Agile with 2-week sprints\n- Phases: Epic Planning → Development → Observer Review → CI/CD → Deployment\n- All actions AI-driven: code generation, testing, documentation, commit narrative generation\n\n### Agent Ecosystem\n**Main Agents:**\n- DevAgent: Code generation and implementation\n- TestAgent: Automated testing and quality assurance\n- DocAgent: Documentation generation and maintenance\n\n**Observer Agent (Project Guardian):**\n- Role: Alignment enforcer across all agents\n- Functions: PR feedback, path validation, standards compliance\n- Trigger: Every commit, PR, and epic completion\n\n**CI/CD Agents:**\n- FormatterAgent: Code style enforcement\n- ReflectionAgent: Extracts commits → structured reflections, dev storylines, narrative outputs\n- DeployAgent: Automated deployment pipelines\n\n**Sub-Agents (by feature domain):**\n- InventorySubAgent, UserAuthSubAgent, ReportingSubAgent\n\n**Orchestration:**\n- Multi-agent coordination via .ipynb notebooks\n- Patterns: Prompt chaining, parallelization, router agents\n\n### Repository Structure (.github)\n```\n.github/\n├── workflows/\n│   ├── epic_breakdown.yml\n│   ├── epic_generator.yml\n│   ├── prd_template.yml\n│   ├── architectural_plan.yml\n│   ├── system_design.yml\n│   ├── conventional_commit.yml\n│   ├── memory_prompt.yml\n│   └── log_prompt.yml\n├── AGENTS.md (agent registry)\n├── copilot-instructions.md (project-level rules)\n└── sprints/\n    ├── sprint_01_instructions.md\n    └── epic_variations/\n```\n\n### Governance & Standards\n**Instructions Hierarchy:**\n1. `copilot-instructions.md` - Project-wide immutable rules\n2. Sprint instructions - Temporal variations per sprint\n3. Epic instructions - Goal-specific invocations\n\n**Conventional Patterns:**\n- Commits: `type(scope): description` per Conventional Commits spec\n- Memory prompt: Session state preservation template\n- Log prompt: Structured activity tracking format\n\n(... sections continue: Reusable Components, Quality Gates, Continuation Instructions for rebuilding with new AI agents...)\n```\n\n# Notes\n\n- **Universality**: Structure must be interpretable by any AI platform (ChatGPT, Claude, Gemini, etc.)\n- **Completeness vs Brevity**: Balance comprehensive context with readability - use nested sections for deep detail\n- **Version Control**: Include timestamps and source platform for tracking context evolution across multiple handoffs\n- **Action Orientation**: Always end with clear \"Continuation Query\" - the exact prompt for next AI to use\n- **Project-Scale Adaptation**: For full project migrations (Case 3), expand \"Project Structure\" section significantly while keeping other sections concise\n- **Failure Documentation**: Explicitly capture what didn't work and why - this prevents next AI from repeating mistakes\n- **Rule Preservation**: When rules/protocols were established during session, include the context of WHY they were needed\n- **Assumption Validation**: Mark assumptions as \"validated\", \"pending validation\", or \"invalidated\" for clarity\n\n- - FOR GEMINI / GEMINI-CLI / ANTIGRAVITY\n\nHere are ultra-concise versions:\n\nGEMINI.md\n\"# Gemini AI Agent across platform\n\nworkflow/agent/sample.toml\n\"# antigravity prompt template\n\n\nMEMORY.md\n\"# Gemini Memory\n\n**Session**: 2026-01-07 | Sprint 01 (7d left) | Epic EPIC-001 (45%)  \n**Active**: TASK-001-03 inventory CRUD API (GET/POST done, PUT/DELETE pending)  \n**Decisions**: PostgreSQL + JSONB, RESTful /api/v1/, pytest testing  \n**Next**: Complete PUT/DELETE endpoints, finalize schema\"\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Context%20Migration",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-09T02:24:04.580Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
