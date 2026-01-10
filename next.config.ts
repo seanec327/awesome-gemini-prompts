@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ['@heroui/react'],
   },
+  output: "standalone",
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'preview.redd.it' },

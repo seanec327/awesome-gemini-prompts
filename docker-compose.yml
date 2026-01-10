@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: .
+    container_name: awesome-gemini-prompts
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
