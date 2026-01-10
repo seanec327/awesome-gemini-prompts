@@ -70257,5 +70257,257 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-d3718c144206",
+    "title": "Ultra-Realistic Winter Cinematography Series",
+    "description": "Act as a Ultra-Realistic Winter Cinematography Series",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"version\": \"2.1\",\n  \"type\": \"multi_frame_winter_cinematography\",\n  \"identity\": {\n    \"reference_face\": \"Use the reference photo’s face with 100% identity accuracy.\",\n    \"consistency\": \"Same person across all frames; identical facial structure, skin texture, hairstyle and age where visible.\"\n  },\n  \"style\": {\n    \"cinematography\": \"Ultra-realistic winter cinematography with 85mm lens character.\",\n    \"color_grade\": \"Subtle blue winter grading, cold tones, soft highlights.\",\n    \"atmosphere\": \"Soft diffused winter light, fine suspended snowflakes, gentle cold haze.\"\n  },\n  \"frames\": [\n    {\n      \"frame_id\": \"top_frame\",\n      \"description\": \"Side-profile portrait of the person in a snowy forest.\",\n      \"requirements\": {\n        \"face_visibility\": \"Side profile fully visible.\",\n        \"identity_match\": \"Perfect match to reference face.\",\n        \"expression\": \"A warm, natural smile visible from the side profile.\",\n        \"environment\": {\n          \"location\": \"Snow-covered forest\",\n          \"lighting\": \"Soft morning winter light shaping facial contours\",\n          \"elements\": [\n            \"Gently falling snow\",\n            \"Visible cold breath\",\n            \"Light winter haze\"\n          ]\n        },\n        \"wardrobe\": {\n          \"coat\": \"Dark winter coat\",\n          \"scarf\": \"Dark or neutral-toned winter scarf\"\n        },\n        \"camera\": {\n          \"lens\": \"85mm\",\n          \"depth_of_field\": \"Shallow\",\n          \"look\": \"Ultra-realistic winter cinematic look\"\n        }\n      }\n    },\n    {\n      \"frame_id\": \"middle_frame\",\n      \"description\": \"Back-turned close-up while walking through a narrow snowy forest path.\",\n      \"requirements\": {\n        \"face_visibility\": \"Face must not be visible at all; strictly back-turned.\",\n        \"identity_cues\": \"Body shape, posture, and clothing must clearly indicate the same person.\",\n        \"environment\": {\n          \"location\": \"Narrow snow-covered forest path\",\n          \"forbidden_elements\": [\"No torii gate\"],\n          \"trees\": \"Tall bare trees bending slightly, forming a natural snowy corridor\",\n          \"atmosphere\": \"Quiet, serene winter silence with falling snow\"\n        },\n        \"wardrobe\": {\n          \"coat\": \"Same dark winter coat as top frame\",\n          \"scarf\": \"Same scarf\"\n        },\n        \"camera\": {\n          \"lens\": \"85mm\",\n          \"shot_type\": \"Close-up from behind\",\n          \"depth_of_field\": \"Soft background with shallow DOF\"\n        }\n      }\n    },\n    {\n      \"frame_id\": \"bottom_frame\",\n      \"description\": \"Extreme close-up looking upward with falling winter snow.\",\n      \"requirements\": {\n        \"face_visibility\": \"Extreme close-up, fully visible face.\",\n        \"identity_match\": \"Exact match to reference face.\",\n        \"expression\": \"A gentle, warm smile while looking upward.\",\n        \"environment\": {\n          \"elements\": [\n            \"Snowflakes falling around but NOT touching the face\",\n            \"Snow in foreground and background only\",\n            \"No visible breath vapor or mouth steam\",\n            \"Soft winter haze in the ambient environment\"\n          ]\n        },\n        \"camera\": {\n          \"lens\": \"85mm\",\n          \"depth_of_field\": \"Very shallow\",\n          \"detail\": \"High realism, crisp skin texture, selective-focus snowflakes\"\n        },\n        \"lighting\": \"Soft winter light with subtle blue reflections\"\n      }\n    }\n  ],\n  \"global_constraints\": {\n    \"identity\": \"Reference face must be perfectly reproduced in all visible-face frames.\",\n    \"continuity\": \"Lighting, winter palette, lens characteristics, and atmosphere must remain consistent across all frames.\",\n    \"realism_level\": \"Ultra-realistic, film-grade winter accuracy.\"\n  }\n}\n{\n  \"version\": \"2.1\",\n  \"type\": \"multi_frame_winter_cinematography\",\n  \"identity\": {\n    \"reference_face\": \"Use the reference photo’s face with 100% identity accuracy.\",\n    \"consistency\": \"Same person across all frames; identical facial structure, skin texture, hairstyle and age where visible.\"\n  },\n  \"style\": {\n\n    \"cinematography\": \"Ultra-realistic winter cinematography with 85mm lens character.\",\n    \"color_grade\": \"Subtle blue winter grading, cold tones, soft highlights.\",\n    \"atmosphere\": \"Soft diffused winter light, fine suspended snowflakes, gentle cold haze.\"\n  },\n  \"frames\": [\n    {\n      \"frame_id\": \"top_frame\",\n      \"description\": \"Side-profile portrait of the person in a snowy forest.\",\n      \"requirements\": {\n        \"face_visibility\": \"Side profile fully visible.\",\n        \"identity_match\": \"Perfect match to reference face.\",\n        \"expression\": \"A warm, natural smile visible from the side profile.\",\n        \"environment\": {\n          \"location\": \"Snow-covered forest\",\n          \"lighting\": \"Soft morning winter light shaping facial contours\",\n          \"elements\": [\n            \"Gently falling snow\",\n            \"Visible cold breath\",\n            \"Light winter haze\"\n          ]\n        },\n        \"wardrobe\": {\n          \"coat\": \"Dark winter coat\",\n          \"scarf\": \"Dark or neutral-toned winter scarf\"\n        },\n        \"camera\": {\n          \"lens\": \"85mm\",\n          \"depth_of_field\": \"Shallow\",\n          \"look\": \"Ultra-realistic winter cinematic look\"\n        }\n      }\n    },\n    {\n      \"frame_id\": \"middle_frame\",\n      \"description\": \"Back-turned close-up while walking through a narrow snowy forest path.\",\n      \"requirements\": {\n        \"face_visibility\": \"Face must not be visible at all; strictly back-turned.\",\n        \"identity_cues\": \"Body shape, posture, and clothing must clearly indicate the same person.\",\n        \"environment\": {\n          \"location\": \"Narrow snow-covered forest path\",\n          \"forbidden_elements\": [\"No torii gate\"],\n          \"trees\": \"Tall bare trees bending slightly, forming a natural snowy corridor\",\n          \"atmosphere\": \"Quiet, serene winter silence with falling snow\"\n        },\n        \"wardrobe\": {\n          \"coat\": \"Same dark winter coat as top frame\",\n          \"scarf\": \"Same scarf\"\n        },\n        \"camera\": {\n          \"lens\": \"85mm\",\n          \"shot_type\": \"Close-up from behind\",\n          \"depth_of_field\": \"Soft background with shallow DOF\"\n        }\n      }\n    },\n    {\n      \"frame_id\": \"bottom_frame\",\n      \"description\": \"Extreme close-up looking upward with falling winter snow.\",\n      \"requirements\": {\n        \"face_visibility\": \"Extreme close-up, fully visible face.\",\n        \"identity_match\": \"Exact match to reference face.\",\n        \"expression\": \"A gentle, warm smile while looking upward.\",\n        \"environment\": {\n          \"elements\": [\n            \"Snowflakes falling around but NOT touching the face\",\n            \"Snow in foreground and background only\",\n            \"No visible breath vapor or mouth steam\",\n            \"Soft winter haze in the ambient environment\"\n          ]\n        },\n        \"camera\": {\n          \"lens\": \"85mm\",\n          \"depth_of_field\": \"Very shallow\",\n          \"detail\": \"High realism, crisp skin texture, selective-focus snowflakes\"\n        },\n        \"lighting\": \"Soft winter light with subtle blue reflections\"\n      }\n    }\n  ],\n  \"global_constraints\": {\n    \"identity\": \"Reference face must be perfectly reproduced in all visible-face frames.\",\n    \"continuity\": \"Lighting, winter palette, lens characteristics, and atmosphere must remain consistent across all frames.\",\n    \"realism_level\": \"Ultra-realistic, film-grade winter accuracy.\"\n  }\n}\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Ultra-Realistic%20Winter%20Cinematography%20Series",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-10T02:19:34.361Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-60a6654c805f",
+    "title": "Comic Book Team Illustration",
+    "description": "Act as a Comic Book Team Illustration",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"colors\": {\n    \"color_temperature\": \"neutral\",\n    \"contrast_level\": \"medium\",\n    \"dominant_palette\": [\n      \"blue\",\n      \"red\",\n      \"pale yellow\",\n      \"black\",\n      \"blonde\"\n    ]\n  },\n  \"composition\": {\n    \"camera_angle\": \"medium shot\",\n    \"depth_of_field\": \"shallow\",\n    \"focus\": \"A group of four people\",\n    \"framing\": \"The subjects are arranged in a diagonal line leading from the background to the foreground, with the foremost character taking up the right side of the frame.\"\n  },\n  \"description_short\": \"A comic book style illustration of four young people in matching uniforms, standing in a line and looking towards the left with serious expressions.\",\n  \"environment\": {\n    \"location_type\": \"outdoor\",\n    \"setting_details\": \"The background is a simple color gradient, suggesting an open sky with no other discernible features.\",\n    \"time_of_day\": \"unknown\",\n    \"weather\": \"clear\"\n  },\n  \"lighting\": {\n    \"intensity\": \"moderate\",\n    \"source_direction\": \"unknown\",\n    \"type\": \"ambient\"\n  },\n  \"mood\": {\n    \"atmosphere\": \"Unified and determined\",\n    \"emotional_tone\": \"serious\"\n  },\n  \"narrative_elements\": {\n    \"character_interactions\": \"The four individuals stand together as a cohesive unit, sharing a common gaze and purpose, indicating they are a team or part of the same organization.\",\n    \"environmental_storytelling\": \"The stark, minimalist background emphasizes the characters, their expressions, and their unity, suggesting that their internal state and group dynamic are the central focus of the scene.\",\n    \"implied_action\": \"The characters appear to be standing at attention or observing something off-panel, suggesting they are either about to embark on a mission or are facing a significant event.\"\n  },\n  \"objects\": [\n    \"Blazers\",\n    \"Collared shirts\",\n    \"Uniforms\"\n  ],\n  \"people\": {\n    \"ages\": [\n      \"teenager\",\n      \"young adult\"\n    ],\n    \"clothing_style\": \"Uniform consisting of blue blazers with a yellow 'T' insignia on the pocket, worn over red collared shirts.\",\n    \"count\": \"4\",\n    \"genders\": [\n      \"male\",\n      \"female\"\n    ]\n  },\n  \"prompt\": \"A comic book panel illustration of four young team members standing in a line. They all wear matching uniforms: blue blazers with a yellow 'T' logo over red shirts. The person in the foreground has short, dark, wavy hair and a determined expression. Behind them are a blonde woman, and two young men with dark hair. They all look seriously towards the left against a simple gradient sky of pale yellow and green. The art style is defined by clean line work and a muted color palette, creating a serious, unified mood.\",\n  \"style\": {\n    \"art_style\": \"comic book\",\n    \"influences\": [\n      \"Indie comics\",\n      \"Amerimanga\"\n    ],\n    \"medium\": \"illustration\"\n  },\n  \"technical_tags\": [\n    \"line art\",\n    \"illustration\",\n    \"comic art\",\n    \"character design\",\n    \"group portrait\",\n    \"flat colors\"\n  ],\n  \"use_case\": \"Training data for comic book art style recognition or character illustration generation.\",\n  \"uuid\": \"1dac4e3f-b9dd-45de-9710-c4d685931446\"\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Comic%20Book%20Team%20Illustration",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-10T02:19:34.361Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-77eebbe7bad1",
+    "title": "Surrealist Painting Description: A Study of René Magritte's Style",
+    "description": "Act as a Surrealist Painting Description: A Study of René Magritte's Style",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"colors\": {\n    \"color_temperature\": \"warm\",\n    \"contrast_level\": \"high\",\n    \"dominant_palette\": [\n      \"red\",\n      \"orange\",\n      \"grey-blue\",\n      \"light grey\"\n    ]\n  },\n  \"composition\": {\n    \"camera_angle\": \"eye-level\",\n    \"depth_of_field\": \"deep\",\n    \"focus\": \"Red sun\",\n    \"framing\": \"The composition is horizontally layered, with a stone wall in the foreground, a line of trees in the midground, and the sky in the background. The red sun is centrally located, creating a strong focal point.\"\n  },\n  \"description_short\": \"A surrealist painting by René Magritte depicting a vibrant red sun or orb hanging in front of a forest of muted grey trees, set against a fiery red and orange sky. A stone wall with an urn stands in the foreground.\",\n  \"environment\": {\n    \"location_type\": \"outdoor\",\n    \"setting_details\": \"The scene appears to be a park or a formal garden, viewed from behind a low stone wall. A manicured lawn separates the wall from a dense grove of leafy trees.\",\n    \"time_of_day\": \"evening\",\n    \"weather\": \"clear\"\n  },\n  \"lighting\": {\n    \"intensity\": \"strong\",\n    \"source_direction\": \"unknown\",\n    \"type\": \"surreal\"\n  },\n  \"mood\": {\n    \"atmosphere\": \"Enigmatic and dreamlike stillness\",\n    \"emotional_tone\": \"surreal\"\n  },\n  \"narrative_elements\": {\n    \"environmental_storytelling\": \"The impossible placement of the sun in front of the trees subverts reality, creating a sense of wonder and intellectual paradox. The ordinary, man-made wall contrasts with the extraordinary natural scene, questioning the viewer's perception of space and reality.\",\n    \"implied_action\": \"The scene is completely static, capturing a moment that defies the natural movement of celestial bodies.\"\n  },\n  \"objects\": [\n    \"Red sun\",\n    \"Trees\",\n    \"Stone wall\",\n    \"Stone urn\",\n    \"Sky\",\n    \"Lawn\"\n  ],\n  \"people\": {\n    \"count\": \"0\"\n  },\n  \"prompt\": \"A highly detailed surrealist oil painting in the style of René Magritte. A large, perfectly circular, vibrant red sun is suspended in mid-air, impossibly positioned in front of a dense forest of muted, grey-blue trees. The sky behind glows with an intense gradient, from fiery red at the top to a warm orange at the horizon. In the foreground, a meticulously rendered light-grey stone wall with a classical urn on a pedestal frames the bottom of the scene. The overall mood is mysterious, silent, and dreamlike, with a stark contrast between warm and cool colors.\",\n  \"style\": {\n    \"art_style\": \"surrealism\",\n    \"influences\": [\n      \"René Magritte\"\n    ],\n    \"medium\": \"painting\"\n  },\n  \"technical_tags\": [\n    \"surrealism\",\n    \"oil painting\",\n    \"landscape\",\n    \"juxtaposition\",\n    \"symbolism\",\n    \"high contrast\",\n    \"vibrant colors\"\n  ],\n  \"use_case\": \"Art history dataset, style transfer model training, AI art prompt inspiration for surrealism.\",\n  \"uuid\": \"b6ec5553-4157-4c02-8a86-6de9c2084f67\"\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Surrealist%20Painting%20Description%3A%20A%20Study%20of%20Ren%C3%A9%20Magritte's%20Style",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-10T02:19:34.361Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-97d18c08216f",
+    "title": "Prepare for Meetings: Key Considerations",
+    "description": "Act as a Prepare for Meetings: Key Considerations",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Based on my prior interactions with ${person}, give me 5 things likely top of mind for our next meeting."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Prepare%20for%20Meetings%3A%20Key%20Considerations",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-10T02:19:34.361Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-f54368be3048",
+    "title": "Bibliographic Review Writing Assistant",
+    "description": "Act as a Bibliographic Review Writing Assistant",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Bibliographic Review Writing Assistant. You are an expert in academic writing, specializing in synthesizing information from scholarly sources and ensuring compliance with APA 7th edition standards.\n\nYour task is to help users draft a comprehensive literature review. You will:\n- Review the entire document provided in Word format.\n- Ensure all references are perfectly formatted according to APA 7th edition.\n- Identify any typographical and formatting errors specific to the journal 'Retos-España'.\n\nRules:\n- Maintain academic tone and clarity.\n- Ensure all references are accurate and complete.\n- Provide feedback only on typographical and formatting errors as per the journal guidelines."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Bibliographic%20Review%20Writing%20Assistant",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-10T02:19:34.361Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-923d9f9b231b",
+    "title": "Diseño de Artículo de Revisión Sistemática para Revista Q1 sobre Sociedad y Cultura Caribeña",
+    "description": "Act as a Diseño de Artículo de Revisión Sistemática para Revista Q1 sobre Sociedad y Cultura Caribeña",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Actúa como un experto profesor de investigación científica en el programa de doctorado en Sociedad y Cultura Caribe de la Unisimon-Barranquilla. Tu tarea es ayudar a redactar un artículo de revisión sistemática basado en los capítulos 1, 2 y 3 de la tesis adjunta, garantizando un 0% de similitud de plagio en Turnitin.\n\nTú:\n- Analizarás la ortografía, gramática y sintaxis del texto para asegurar la máxima calidad.\n- Proporcionarás un título diferente de 15 palabras para la propuesta de investigación.\n- Asegurarás que el artículo esté redactado en tercera persona y cumpla con los estándares de una revista de alto impacto Q1.\n\nReglas:\n- Mantener un enfoque académico y riguroso.\n- Utilizar normas APA 7 para citas y referencias.\n- Evitar lenguaje redundante y asegurar claridad y concisión."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Dise%C3%B1o%20de%20Art%C3%ADculo%20de%20Revisi%C3%B3n%20Sistem%C3%A1tica%20para%20Revista%20Q1%20sobre%20Sociedad%20y%20Cultura%20Caribe%C3%B1a",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-10T02:19:34.361Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-a641d900085c",
+    "title": "Job and Internship Tracker for Google Sheets",
+    "description": "Act as a Job and Internship Tracker for Google Sheets",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Career Management Assistant. You are tasked with creating a Google Sheets template specifically for tracking job and internship applications.\n\nYour task is to:\n- Design a spreadsheet layout that includes columns for:\n  - Company Name\n  - Position\n  - Location\n  - Application Date\n  - Contact Information\n  - Application Status (e.g., Applied, Interviewing, Offer, Rejected)\n  - Notes/Comments\n  - Relevant Skills Required\n  - Follow-Up Dates\n  \n- Customize the template to include features useful for a computer engineering major with a minor in Chinese and robotics, focusing on AI/ML and computer vision roles in defense and futuristic warfare applications.\n\nRules:\n- Ensure the sheet is easy to navigate and update.\n- Include conditional formatting to highlight important dates or statuses.\n- Provide a section to track networking contacts and follow-up actions.\n\nUse variables for customization:\n- ${graduationDate:December 2026}\n- ${major:Computer Engineering}\n- ${interests:AI/ML, Computer Vision, Defense}\n\nExample:\n- Include a sample row with the following data:\n  - Company Name: \"Defense Tech Inc.\"\n  - Position: \"AI Research Intern\"\n  - Location: \"Remote\"\n  - Application Date: \"2023-11-01\"\n  - Contact Information: \"john.doe@defensetech.com\"\n  - Application Status: \"Applied\"\n  - Notes/Comments: \"Focus on AI for drone technology\"\n  - Relevant Skills Required: \"Python, TensorFlow, Machine Learning\"\n  - Follow-Up Dates: \"2023-11-15\""
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Job%20and%20Internship%20Tracker%20for%20Google%20Sheets",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-10T02:19:34.361Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
