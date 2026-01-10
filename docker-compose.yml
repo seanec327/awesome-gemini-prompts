@@ -5,6 +5,6 @@ services:
     container_name: awesome-gemini-prompts
     restart: always
     ports:
-      - "3000:3000"
+      - "3333:3333"
     environment:
       - NODE_ENV=production
