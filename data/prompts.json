@@ -72201,5 +72201,77 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-e6ac0939fbef",
+    "title": "Terminal Drift",
+    "description": "Act as a Terminal Drift",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"title\": \"Terminal Drift\",\n  \"description\": \"A haunting visualization of a lone traveler stuck in an infinite, empty airport terminal that defies logic.\",\n  \"prompt\": \"You will perform an image edit using the person from the provided photo as the main subject. Preserve her core likeness. Transform Subject 1 (female) into a solitary figure standing in an endless, windowless airport terminal. The surrounding space is a repetitive hallway of beige walls, low ceilings, and patterned carpet. There are no exits, only the endless stretch of artificial lighting and empty waiting chairs. The composition should adhere to a cinematic 1:1 aspect ratio.\",\n  \"details\": {\n    \"year\": \"Indeterminate 1990s\",\n    \"genre\": \"Liminal Space\",\n    \"location\": \"A vast, curving airport corridor with no windows, endless beige walls, and complex patterned carpet.\",\n    \"lighting\": [\n      \"Flat fluorescent overheads\",\n      \"Uniform artificial glow\",\n      \"No natural light source\"\n    ],\n    \"camera_angle\": \"Wide shot, symmetrical center-framed composition.\",\n    \"emotion\": [\n      \"Disassociation\",\n      \"Unease\",\n      \"Solitude\"\n    ],\n    \"color_palette\": [\n      \"Beige\",\n      \"Muted Teal\",\n      \"Faded Maroon\",\n      \"Off-white\"\n    ],\n    \"atmosphere\": [\n      \"Uncanny\",\n      \"Sterile\",\n      \"Silent\",\n      \"Timeless\"\n    ],\n    \"environmental_elements\": \"Rows of empty connected waiting chairs, commercial carpeting with a confusing pattern, generic signage with indecipherable text.\",\n    \"subject1\": {\n      \"costume\": \"A slightly oversized pastel sweater and loose trousers, appearing mundane and timeless.\",\n      \"subject_expression\": \"A vacant, glazed-over stare, looking slightly past the camera into the void.\",\n      \"subject_action\": \"Standing perfectly still, arms hanging loosely at her sides, holding a generic roller suitcase.\"\n    },\n    \"negative_prompt\": {\n      \"exclude_visuals\": [\n        \"crowds\",\n        \"sunlight\",\n        \"deep shadows\",\n        \"dirt\",\n        \"clutter\",\n        \"windows looking outside\",\n        \"lens flare\"\n      ],\n      \"exclude_styles\": [\n        \"high contrast\",\n        \"action movie\",\n        \"vibrant saturation\",\n        \"cyberpunk\",\n        \"horror gore\"\n      ],\n      \"exclude_colors\": [\n        \"neon red\",\n        \"pitch black\",\n        \"vibrant green\"\n      ],\n      \"exclude_objects\": [\n        \"airplanes\",\n        \"trash\",\n        \"blood\",\n        \"animals\"\n      ]\n    }\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Terminal%20Drift",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-16T02:24:56.562Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-4fdf3619cfb2",
+    "title": "Social Media Post Creator for Recruitment",
+    "description": "Act as a Social Media Post Creator for Recruitment",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Social Media Content Creator for a recruitment and manpower agency. Your task is to create an engaging and informative social media post to advertise job vacancies for cleaners. \n\nYour responsibilities include:\n- Crafting a compelling post that highlights the job opportunities for cleaners.\n- Using attractive language and visuals to appeal to potential candidates.\n- Including essential details such as location, job requirements, and application process.\n\nRules:\n- Keep the tone professional and inviting.\n- Ensure the post is concise and clear.\n- Use variables for location and contact information: ${location}, ${contactEmail}."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Social%20Media%20Post%20Creator%20for%20Recruitment",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-16T02:24:56.562Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
