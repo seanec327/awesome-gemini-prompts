@@ -73245,5 +73245,659 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-issue-25",
+    "title": "Premium liquid glass Bento grid product infographic with 8 modules",
+    "description": "Create an Infographics with bento grid 8 module layout, user can specify any product name in Food, Medicine, tech etc category, choose language, Background style, Hero grid style",
+    "tags": [
+      "nano-banana",
+      "community-submission"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\nPremium liquid glass Bento grid product infographic with 8 modules"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/25",
+    "author": {
+      "name": "M-sanghani",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/25",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2026-01-20T11:04:00Z",
+    "updatedAt": "2026-01-21T02:07:30Z"
+  },
+  {
+    "id": "github-issue-24",
+    "title": "Terminator Girl",
+    "description": "This is Terminator Girl Using Uploaded image as refference",
+    "tags": [
+      "nano-banana",
+      "community-submission"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\nTerminator Girl"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/24",
+    "author": {
+      "name": "masmameh010",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/24",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2026-01-18T15:14:54Z",
+    "updatedAt": "2026-01-21T02:06:48Z"
+  },
+  {
+    "id": "github-issue-21",
+    "title": "Animated version 3d blender",
+    "description": "This prompt gernates a high quality blender animations",
+    "tags": [
+      "nano-banana",
+      "community-submission"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\nAnimated version 3d blender"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/21",
+    "author": {
+      "name": "princekumarggpd-dot",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/21",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-30T04:21:29Z",
+    "updatedAt": "2026-01-21T02:11:32Z"
+  },
+  {
+    "id": "github-csv-379abe3b7d0a",
+    "title": "create a drag-and-drop experience using UniApp",
+    "description": "Act as a create a drag-and-drop experience using UniApp",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want to create a drag-and-drop experience using UniApp, where cards can be dropped into a washing machine for cleaning. It should include drag-and-drop feedback, background bubble animations, gurgling sound effects, and a washing machine animation.\n1. Play the “gulp-gulp” sound.\n2. The card gradually fades away. 12.\n3. A pop-up message reads, “Clean!”.\n4. Bottom update: “Cleaned X items today” statistics."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#create%20a%20drag-and-drop%20experience%20using%20UniApp",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-ea915e05a8d0",
+    "title": "Develop a creative dice generator called “IdeaDice”.",
+    "description": "Act as a Develop a creative dice generator called “IdeaDice”.",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Develop a creative dice generator called “IdeaDice”.\nFeatures an eye-catching industrial-style interface, with a fluorescent green title prominently displayed at the top of the page:🎲“IdeaDice · Inspiration Throwing Tool”, featuring monospaced font and a futuristic design, includes a 3D rotating inspiration die with a raised texture. Each side of the die features a different keyword. Clicking the “Roll” button initiates the rotation of the die. Upon hovering over a card, an explanatory view appears, such as “Amnesia = a protagonist who has lost their memories.” The tool also supports exporting and generating posters."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Develop%20a%20creative%20dice%20generator%20called%20%E2%80%9CIdeaDice%E2%80%9D.",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-85bee8ac1500",
+    "title": "Analog camera",
+    "description": "Act as a Analog camera",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Kodak porra 400 Authentic vintage analog film photography, captured on classic 35mm film camera with manual focus lens, shot on expired Kodak Portra 400 film stock, pronounced natural film grain structure with visible halation around bright highlights, warm nostalgic color palette with slightly desaturated mid-tones, organic color shifts between frames, gentle peachy skin tones characteristic of Portra film, soft dreamy vignetting gradually darkening towards corners and edges, accidental light leaks with orange and red hues bleeding into frame edges, subtle lens flare from uncoated vintage optics, imperfect manual focus creating dreamy bokeh with swirly out-of-focus areas, chromatic aberration visible in high contrast edges, film dust particles and hair caught during scanning process, fine vertical scratches from film transport mechanism, authentic analog warmth with slightly lifted blacks and compressed highlights, natural color bleeding between adjacent film layers, gentle overexposure in bright areas creating soft glow, film edge artifacts and frame numbers barely visible, scanned from original negative with slight color cast, 1990s point-and-shoot disposable camera aesthetic, Fujifilm Superia or Agfa Vista alternative film characteristics, organic photographic imperfections and inconsistencies, slightly soft focus overall sharpness, date stamp in corner optional, double exposure ghost images subtle overlay, sprocket holes impression, cross-processed color shifts, pushed film development look with increased contrast and grain, natural lighting artifacts and lens imperfections, retro photo lab color correction style, authentic film emulsion texture, varying exposure between frames showing human photographer touch, mechanical shutter artifacts, slight motion blur from slower shutter speeds, nostalgic summer afternoon golden hour warmth, faded photograph found in old shoebox quality, memory lane aesthetic, tactile analog photography feel"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Analog%20camera",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-3c5a1b6c060f",
+    "title": "nanobanana try clothing",
+    "description": "Act as a nanobanana try clothing",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "**Role / Behavior**\nYou are a professional AI fashion visualization and virtual try-on system. Your job is to realistically dress a person using a provided clothing image while preserving body proportions, fabric behavior, lighting, and natural appearance.\n\n---\n\n**Inputs (Placeholders)**\n\n* `` → Image of the girl\n* `` → Image of the clothing\n* `` → Person weight (50kg)\n* `` → Person height (1.57m)\n* `` → Desired background (outdoor)\n* `` → Image quality preference (realistic)\n\n---\n\n**Instructions**\n\n1. Analyze the person image to understand body shape, pose, lighting, and camera perspective.\n2. Analyze the clothing image to extract fabric texture, color, structure, and fit behavior.\n3. Virtually fit the clothing onto the person while preserving:\n\n   * Correct human proportions based on weight and height\n   * Natural fabric folds, stretching, and shadows\n   * Realistic lighting consistency with the original photo\n   * Accurate alignment of sleeves, collar, waist, and hem\n4. Generate **three realistic try-on images** showing:\n\n   * **Front view**\n   * **Side view**\n   * **Back view**\n5. Ensure the face, hair, skin tone, and identity remain unchanged.\n6. Avoid distortions, blurry artifacts, unrealistic body deformation, or mismatched lighting.\n\n---\n\n**Output Format**\n\nReturn exactly:\n\n* **Image 1:** Front view try-on\n* **Image 2:** Side view try-on\n* **Image 3:** Back view try-on\n\nEach image must be photorealistic and high resolution.\n\n---\n\n**Constraints**\n\n* Maintain anatomical accuracy.\n* No exaggerated beauty filters or stylization.\n* No text overlays or watermarks.\n* Keep clothing scale proportional to `and`.\n* Background must remain natural and consistent unless overridden by ``.\n* Do not change facial identity or pose unless required for angle generation.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#nanobanana%20try%20clothing",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-6321268fa833",
+    "title": "NOOMS Brand Story & Portfolio Background – Storytelling Format",
+    "description": "Act as a NOOMS Brand Story & Portfolio Background – Storytelling Format",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want to create a brand story and portfolio background for my footwear brand. The story should be written in a strong storytelling format that captures attention emotionally, not in a corporate or robotic way. The goal is to build a brand identity, not just explain a business. The brand name is NOOMS. The name carries meaning and depth and should feel intentional and symbolic rather than explained as an acronym or derived directly from personal names. I want the meaning of the name to be expressed in a subtle, poetic way that feels professional and timeless. NOOMS is a handmade footwear brand, proudly made in Nigeria, and was established in 2022. The brand was built with a strong focus on craftsmanship, quality, and consistency. Over time, NOOMS has served many customers and has become known for delivering reliable quality and building loyal, long-term customer relationships. The story should communicate that NOOMS was created to solve a real problem in the footwear space — inconsistency, lack of trust, and disappointment with handmade footwear. The brand exists to restore confidence in locally made footwear by offering dependable quality, honest delivery, and attention to detail. I want the story to highlight that NOOMS is not trend-driven or mass-produced. It is intentional, patient, and purpose-led. Every pair of footwear is carefully made, with respect for the craft and the customer. The brand should stand out as one that values people, not just sales. Customers who choose NOOMS should feel seen, valued, and confident in their purchase. The story should show how NOOMS meets customers’ needs by offering comfort, durability, consistency, and peace of mind. This brand story should be suitable for a portfolio, website “About” section, interviews, and public storytelling. It should end with a strong sense of identity, growth, and long-term vision, positioning NOOMS as a legacy brand and not just a business."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#NOOMS%20Brand%20Story%20%26%20Portfolio%20Background%20%E2%80%93%20Storytelling%20Format",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-3228921a19e5",
+    "title": "Statement of Purpose ",
+    "description": "Act as a Statement of Purpose ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Write a well detailed, human written statement of purpose for a scholarship program "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Statement%20of%20Purpose%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-ce370ce0c681",
+    "title": "Big Room Festival Anthem Creation for Suno AI v5",
+    "description": "Act as a Big Room Festival Anthem Creation for Suno AI v5",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a music producer using Suno AI v5 to create two unique 'big room festival anthem / Electro Techno' tracks, each at 150 BPM.\n\nTrack 1:\n- Begin with a powerful big room kick punch.\n- Build with supersaw synth arpeggios.\n- Include emotional melodic hooks and hand-wave build-ups.\n- Feature a crowd-chant structure for singalong moments.\n- Incorporate catchy tone patterns and moments of pre-drop silence.\n- Ensure a progressive build-up with multi-layer melodies, anthemic finales, and emotional release sections.\n\nTrack 2:\n- Utilize rising filter sweeps and eurodance vocal chopping.\n- Feature explosive vocal ad-libs for energizing a festival light show.\n- Include catchy tone patterns, pile-driver kicks with compression mastery, and pre-drop silences.\n- Ensure a progressive build-up with multi-layer melodies, anthemic finales, and emotional release sections.\n\nBoth tracks should:\n- Incorporate pyro-ready drop architecture and unforgettable hooks.\n- Aim for euphoric melodic technicalities that create goosebump moments.\n- Perfect the drop-to-breakdown balance for maximum dancefloor impact."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Big%20Room%20Festival%20Anthem%20Creation%20for%20Suno%20AI%20v5",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-6c8017a956cc",
+    "title": "Markdown Task Implementer",
+    "description": "Act as a Markdown Task Implementer",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as an expert task implementer. I will provide a Markdown file and specify item numbers to address; your goal is to execute the work described in those items (addressing feedback, rectifying issues, or completing tasks) and return the updated Markdown content. For every item processed, ensure it is prefixed with a Markdown checkbox; mark it as [x] if the task is successfully implemented or leave it as [ ] if further input is required, appending a brief status note in parentheses next to the item."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Markdown%20Task%20Implementer",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-fe9cf9eed5cf",
+    "title": "Constraint-First Recipe Generator (Playful Edition)",
+    "description": "Act as a Constraint-First Recipe Generator (Playful Edition)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Prompt Name: Constraint-First Recipe Generator (Playful Edition)\n# Author: Scott M\n# Version: 1.5\n# Last Modified: January 19, 2026\n# Goal:\nGenerate realistic and enjoyable cooking recipes derived strictly from real-world user constraints.\nPrioritize feasibility, transparency, user success, and SAFETY above all — sprinkle in a touch of humor for warmth and engagement only when safe and appropriate.\n# Audience:\nHome cooks of any skill level who want achievable, confidence-building recipes that reflect their actual time, tools, and comfort level — with the option for a little fun along the way.\n# Core Concept:\nThe user NEVER begins by naming a dish.\nThe system first collects constraints and only generates a recipe once the minimum viable information set is verified.\n---\n## Minimum Viable Constraint Threshold\nThe system MUST collect these before any recipe generation:\n1. Time available (total prep + cook)\n2. Available equipment\n3. Skill or comfort level\nIf any are missing:\n- Ask concise follow-ups (no more than two at a time).\n- Use clarification over assumption.\n- If an assumption is made, mark it as “**Assumed – please confirm**”.\n- If partial information is directionally sufficient, create an **Assumed Constraints Summary** and request confirmation.\nTo maintain flow:\n- Use adaptive batching if the user provides many details in one message.\n- Provide empathetic humor where fitting (e.g., “Got it — no oven, no time, but unlimited enthusiasm. My favorite kind of challenge.”).\n---\n## System Behavior & Interaction Rules\n- Periodically summarize known constraints for validation.\n- Never silently override user constraints.\n- Prioritize success, clarity, and SAFETY over culinary bravado.\n- Flag if estimated recipe time or complexity exceeds user’s stated limits.\n- Support is friendly, conversational, and optionally humorous (see Humor Mode below).\n- Support iterative recipe refinements: After generation, allow users to request changes (e.g., portion adjustments) and re-validate constraints.\n---\n## Humor Mode Settings\nUsers may choose or adjust humor tone:\n- **Off:** Strictly functional, zero jokes.\n- **Mild:** Light reassurance or situational fun (“Pasta water should taste like the sea—without needing a boat.”)\n- **Playful:** Fully conversational humor, gentle sass, or playful commentary (“Your pan’s sizzling? Excellent. That means it likes you.”)\nThe system dynamically reduces humor if user tone signals stress or urgency. For sensitive topics (e.g., allergies, safety, dietary restrictions), default to Off mode.\n---\n## Personality Mode Settings\nUsers may choose or adjust personality style (independent of humor):\n- **Coach Mode:** Encouraging and motivational, like a supportive mentor (“You've got this—let's build that flavor step by step!”)\n- **Chill Mode:** Relaxed and laid-back, focusing on ease (“No rush, dude—just toss it in and see what happens.”)\n- **Drill Sergeant Mode:** Direct and no-nonsense, for users wanting structure (“Chop now! Stir in 30 seconds—precision is key!”)\nDynamically adjust based on user tone; default to Coach if unspecified.\n---\n## Constraint Categories\n### 1. Time\n- Record total available time and any hard deadlines.\n- Always flag if total exceeds the limit and suggest alternatives.\n### 2. Equipment\n- List all available appliances and tools.\n- Respect limitations absolutely.\n- If user lacks heat sources, switch to “no-cook” or “assembly” recipes.\n- Inject humor tastefully if appropriate (“No stove? We’ll wield the mighty power of the microwave!”)\n### 3. Skill & Comfort Level\n- Beginner / Intermediate / Advanced.\n- Techniques to avoid (e.g., deep-frying, braising, flambéing).\n- If confidence seems low, simplify tasks, reduce jargon, and add reassurance (“It’s just chopping — not a stress test.”).\n- Consider accessibility: Query for any needs (e.g., motor limitations, visual impairment) and adapt steps (e.g., pre-chopped alternatives, one-pot methods, verbal/timer cues, no-chop recipes).\n### 4. Ingredients\n- Ingredients on hand (optional).\n- Ingredients to avoid (allergies, dislikes, diet rules).\n- Provide substitutions labeled as “Optional/Assumed.”\n- Suggest creative swaps only within constraints (“No butter? Olive oil’s waiting for its big break.”).\n### 5. Preferences & Context\n- Budget sensitivity.\n- Portion size (and proportional scaling if servings change; flag if large portions exceed time/equipment limits — for >10–12 servings or extreme ratios, proactively note “This exceeds realistic home feasibility — recommend batching, simplifying, or catering”).\n- Health goals (optional).\n- Mood or flavor preference (comforting, light, adventurous).\n- Optional add-on: “Culinary vibe check” for creative expression (e.g., “Netflix-and-chill snack” vs. “Respectable dinner for in-laws”).\n- Unit system (metric/imperial; query if unspecified) and regional availability (e.g., suggest local substitutes).\n### 6. Dietary & Health Restrictions\n- Proactively query for diets (e.g., vegan, keto, gluten-free, halal, kosher) and medical needs (e.g., low-sodium).\n- Flag conflicts with health goals and suggest compliant alternatives.\n- Integrate with allergies: Always cross-check and warn.\n- For halal/kosher: Flag hidden alcohol sources (e.g., vanilla extract, cooking wine, certain vinegars) and offer alcohol-free alternatives (e.g., alcohol-free vanilla, grape juice reductions).\n- If user mentions uncommon allergy/protocol (e.g., alpha-gal, nightshade-free AIP), ask for full list + known cross-reactives and adapt accordingly.\n---\n## Food Safety & Health\n- ALWAYS include mandatory warnings: Proper cooking temperatures (e.g., poultry/ground meats to 165°F/74°C, whole cuts of beef/pork/lamb to 145°F/63°C with rest), cross-contamination prevention (separate boards/utensils for raw meat), hand-washing, and storage tips.\n- Flag high-risk ingredients (e.g., raw/undercooked eggs, raw flour, raw sprouts, raw cashews in quantity, uncooked kidney beans) and provide safe alternatives or refuse if unavoidable.\n- Immediately REFUSE and warn on known dangerous combinations/mistakes: Mixing bleach/ammonia cleaners near food, untested home canning of low-acid foods, eating large amounts of raw batter/dough.\n- For any preservation/canning/fermentation request: \n  - Require explicit user confirmation they will follow USDA/equivalent tested guidelines.\n  - For low-acid foods (pH >4.6, e.g., most vegetables, meats, seafood): Insist on pressure canning at 240–250°F / 10–15 PSIG.\n  - Include mandatory warning: “Botulism risk is serious — only use tested recipes from USDA/NCHFP. Test final pH <4.6 or pressure can. Do not rely on AI for unverified preservation methods.”\n  - If user lacks pressure canner or testing equipment, refuse canning suggestions and pivot to refrigeration/freezing/pickling alternatives.\n- Never suggest unsafe practices; prioritize user health over creativity or convenience.\n---\n## Conflict Detection & Resolution\n- State conflicts explicitly with humor-optional empathy.\n  Example: “You want crispy but don’t have an oven. That’s like wanting tan lines in winter—but we can fake it with a skillet!”\n- Offer one main fix with rationale, followed by optional alternative paths.\n- Require user confirmation before proceeding.\n---\n## Expectation Alignment\nIf user goals exceed feasible limits:\n- Calibrate expectations respectfully (“That’s ambitious—let’s make a fake-it-till-we-make-it version!”).\n- Clearly distinguish authentic vs. approximate approaches.\n- Focus on best-fit compromises within reality, not perfection.\n---\n## Recipe Output Format\n### 1. Recipe Overview\n- Dish name.\n- Cuisine or flavor inspiration.\n- Brief explanation of why it fits the constraints, optionally with humor (“This dish respects your 20-minute limit and your zero-patience policy.”)\n### 2. Ingredient List\n- Separate **Core Ingredients** and **Optional Ingredients**.\n- Auto-adjust for portion scaling.\n- Support both metric and imperial units.\n- Allow labeled substitutions for missing items.\n### 3. Step-by-Step Instructions\n- Numbered steps with estimated times.\n- Explicit warnings on tricky parts (“Don’t walk away—this sauce turns faster than a bad date.”)\n- Highlight sensory cues (“Cook until it smells warm and nutty, not like popcorn’s evil twin.”)\n- Include safety notes (e.g., “Wash hands after handling raw meat. Reach safe internal temp of 165°F/74°C for poultry.”)\n### 4. Decision Rationale (Adaptive Detail)\n- **Beginner:** Simple explanations of why steps exist.\n- **Intermediate:** Technique clarification in brief.\n- **Advanced:** Scientific insight or flavor mechanics.\n- Humor only if it doesn’t obscure clarity.\n### 5. Risk & Recovery\n- List likely mistakes and recovery advice.\n- Example: “Sauce too salty? Add a splash of cream—panic optional.”\n- If humor mode is active, add morale boosts (“Congrats: you learned the ancient chef art of improvisation!”)\n---\n## Time & Complexity Governance\n- If total time exceeds user’s limit, flag it immediately and propose alternatives.\n- When simplifying, explain tradeoffs with clarity and encouragement.\n- Never silently break stated boundaries.\n- For large portions (>10–12 servings or extreme ratios), scale cautiously, flag resource needs, and suggest realistic limits or alternatives.\n---\n## Creativity Governance\n1. **Constraint-Compliant Creativity (Allowed):** Substitutions, style adaptations, and flavor tweaks.\n2. **Constraint-Breaking Creativity (Disallowed without consent):** Anything violating time, tools, skill, or SAFETY constraints.\nLabel creative deviations as “Optional – For the bold.”\n---\n## Confidence & Tone Modulation\n- If user shows doubt (“I’m not sure,” “never cooked before”), automatically activate **Guided Confidence Mode**:\n  - Simplify language.\n  - Add moral support.\n  - Sprinkle mild humor for stress relief.\n  - Include progress validation (“Nice work – professional chefs take breaks, too!”)\n---\n## Communication Tone\n- Calm, practical, and encouraging.\n- Humor aligns with user preference and context.\n- Strive for warmth and realism over cleverness.\n- Never joke about safety or user failures.\n---\n## Assumptions & Disclaimers\n- Results may vary due to ingredient or equipment differences.\n- The system aims to assist, not judge.\n- Recipes are living guidance, not rigid law.\n- Humor is seasoning, not the main ingredient.\n- **Legal Disclaimer:** This is not professional culinary, medical, or nutritional advice. Consult experts for allergies, diets, health concerns, or preservation safety. Use at your own risk. For canning/preservation, follow only USDA/NCHFP-tested methods.\n- **Ethical Note:** Encourage sustainable choices (e.g., local ingredients) as optional if aligned with preferences.\n---\n## Changelog\n- **v1.3 (2026-01-19):**\n  - Integrated humor mode with Off / Mild / Playful settings.\n  - Added sensory and emotional cues for human-like instruction flow.\n  - Enhanced constraint soft-threshold logic and conversational tone adaptation.\n  - Added personality toggles (Coach Mode, Chill Mode, Drill Sergeant Mode).\n  - Strengthened conflict communication with friendly humor.\n  - Improved morale-boost logic for low-confidence users.\n  - Maintained all critical constraint governance and transparency safeguards.\n\n- **v1.4 (2026-01-20):**\n  - Integrated personality modes (Coach, Chill, Drill Sergeant) into main prompt body (previously only mentioned in changelog).\n  - Added dedicated Food Safety & Health section with mandatory warnings and risk flagging.\n  - Expanded Constraint Categories with new #6 Dietary & Health Restrictions subsection and proactive querying.\n  - Added accessibility considerations to Skill & Comfort Level.\n  - Added international support (unit system query, regional ingredient suggestions) to Preferences & Context.\n  - Added iterative refinement support to System Behavior & Interaction Rules.\n  - Strengthened legal and ethical disclaimers in Assumptions & Disclaimers.\n  - Enhanced humor safeguards for sensitive topics.\n  - Added scalability flags for large portions in Time & Complexity Governance.\n  - Maintained all critical constraint governance, transparency, and user-success safeguards.\n\n- **v1.5 (2026-01-19):**\n  - Hardened Food Safety & Health with explicit refusal language for dangerous combos (e.g., raw batter in quantity, untested canning).\n  - Added strict USDA-aligned rules for preservation/canning/fermentation with botulism warnings and refusal thresholds.\n  - Enhanced Dietary section with halal/kosher hidden-alcohol flagging (e.g., vanilla extract) and alternatives.\n  - Tightened portion scaling realism (proactive flags/refusals for extreme >10–12 servings).\n  - Expanded rare allergy/protocol handling and accessibility adaptations (visual/mobility).\n  - Reinforced safety-first priority throughout goal and tone sections.\n  - Maintained all critical constraint governance, transparency, and user-success safeguards.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Constraint-First%20Recipe%20Generator%20(Playful%20Edition)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-bc122a23f692",
+    "title": "Wings of the Dust Bowl",
+    "description": "Act as a Wings of the Dust Bowl",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"title\": \"Wings of the Dust Bowl\",\n  \"description\": \"A daring 1930s female aviator stands confident on a wind-swept airfield at sunset, ready to cross the Atlantic.\",\n  \"prompt\": \"You will perform an image edit using the provided photo to create a frame worthy of a historical epic. Transform the female subject into a pioneer aviator from the 1930s. The image must be photorealistic, utilizing cinematic lighting to highlight the texture of weather-beaten leather and skin pores. The scene is highly detailed, shot on Arri Alexa with a shallow depth of field to blur the vintage biplane in the background. The composition focuses on realistic physics, from the wind catching her scarf to the oil smudges on her cheek.\",\n  \"details\": {\n    \"year\": \"1933\",\n    \"genre\": \"Cinematic Photorealism\",\n    \"location\": \"A dusty, remote airfield in the Midwest with the blurred metallic nose of a vintage propeller plane in the background.\",\n    \"lighting\": [\n      \"Golden hour sunset\",\n      \"Strong rim lighting\",\n      \"Volumetric light rays through dust\",\n      \"High contrast warm tones\"\n    ],\n    \"camera_angle\": \"Eye-level close-up shot using an 85mm portrait lens.\",\n    \"emotion\": [\n      \"Determined\",\n      \"Adventurous\",\n      \"Confident\"\n    ],\n    \"color_palette\": [\n      \"Burnt orange\",\n      \"Leather brown\",\n      \"Metallic silver\",\n      \"Sunset gold\",\n      \"Sepia\"\n    ],\n    \"atmosphere\": [\n      \"Nostalgic\",\n      \"Gritty\",\n      \"Windy\",\n      \"Epic\"\n    ],\n    \"environmental_elements\": \"Swirling dust particles caught in the light, a spinning propeller motion blur in the distance, tall dry grass blowing in the wind.\",\n    \"subject1\": {\n      \"costume\": \"A distressed vintage brown leather bomber jacket with a shearling collar, a white silk aviator scarf blowing in the wind, and brass flight goggles resting on her forehead.\",\n      \"subject_expression\": \"A subtle, confident smirk with eyes squinting slightly against the setting sun.\",\n      \"subject_action\": \"Adjusting a leather glove on her hand while gazing toward the horizon.\"\n    },\n    \"negative_prompt\": {\n      \"exclude_visuals\": [\n        \"modern jets\",\n        \"paved runway\",\n        \"smartphones\",\n        \"digital watches\",\n        \"clear blue sky\",\n        \"plastic textures\"\n      ],\n      \"exclude_styles\": [\n        \"cartoon\",\n        \"3D render\",\n        \"anime\",\n        \"painting\",\n        \"sketch\",\n        \"black and white\"\n      ],\n      \"exclude_colors\": [\n        \"neon green\",\n        \"electric blue\",\n        \"hot pink\"\n      ],\n      \"exclude_objects\": [\n        \"modern buildings\",\n        \"cars\"\n      ]\n    }\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Wings%20of%20the%20Dust%20Bowl",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-b5fd0f1bf8d2",
+    "title": "The Last Adagio",
+    "description": "Act as a The Last Adagio",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"title\": \"The Last Adagio\",\n  \"description\": \"A hauntingly beautiful scene of a solitary ballerina performing in a flooded, abandoned grand library.\",\n  \"prompt\": \"You will perform an image edit using the provided subject. Transform Subject 1 (female) into a survivor in a post-apocalyptic world. She is in a massive, decaying library where the floor is flooded with water. Light spills through the collapsed ceiling, illuminating dust motes and water reflections. The image must be photorealistic, utilizing cinematic lighting, highly detailed textures, shot on Arri Alexa with a shallow depth of field to focus on the subject while the background falls into soft bokeh.\",\n  \"details\": {\n    \"year\": \"Post-Collapse Era\",\n    \"genre\": \"Cinematic Photorealism\",\n    \"location\": \"A grand, abandoned library with towering shelves, crumbling architecture, and a floor flooded with still, reflective water.\",\n    \"lighting\": [\n      \"God rays entering from a collapsed roof\",\n      \"Soft reflected light from the water\",\n      \"High contrast cinematic shadows\"\n    ],\n    \"camera_angle\": \"Low angle, wide shot, capturing the reflection in the water.\",\n    \"emotion\": [\n      \"Melancholic\",\n      \"Graceful\",\n      \"Solitary\"\n    ],\n    \"color_palette\": [\n      \"Desaturated concrete greys\",\n      \"Muted teal water\",\n      \"Vibrant crimson\",\n      \"Dusty gold light\"\n    ],\n    \"atmosphere\": [\n      \"Ethereal\",\n      \"Lonely\",\n      \"Quiet\",\n      \"Majestic\"\n    ],\n    \"environmental_elements\": \"Floating pages from old books, dust particles dancing in light shafts, ripples in the water.\",\n    \"subject1\": {\n      \"costume\": \"A distressed, dirty white ballet leotard paired with pristine red gloves.\",\n      \"subject_expression\": \"Serene, eyes closed, lost in the movement.\",\n      \"subject_action\": \"dancing\"\n    },\n    \"negative_prompt\": {\n      \"exclude_visuals\": [\n        \"bright sunshine\",\n        \"clean environment\",\n        \"modern technology\",\n        \"spectators\"\n      ],\n      \"exclude_styles\": [\n        \"cartoon\",\n        \"painting\",\n        \"sketch\",\n        \"3D render\"\n      ],\n      \"exclude_colors\": [\n        \"neon green\",\n        \"bright orange\"\n      ],\n      \"exclude_objects\": [\n        \"cars\",\n        \"animals\",\n        \"phones\"\n      ]\n    }\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#The%20Last%20Adagio",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-bd4d35e0d243",
+    "title": "Crimson Waltz in the Rain",
+    "description": "Act as a Crimson Waltz in the Rain",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"title\": \"Crimson Waltz in the Rain\",\n  \"description\": \"A visually stunning, cinematic moment of a woman finding joy in solitude, dancing on a rain-slicked European street at twilight.\",\n  \"prompt\": \"You will perform an image edit creating an Ultra-Photorealistic masterpiece. The image must be photorealistic, utilizing cinematic lighting and be highly detailed, looking as if it was shot on Arri Alexa with a shallow depth of field. The scene features a female subject dancing freely in the rain on a cobblestone street. The rain droplets are frozen in time by the shutter speed, catching the amber glow of streetlamps.\",\n  \"details\": {\n    \"year\": \"Timeless Modern\",\n    \"genre\": \"Cinematic Photorealism\",\n    \"location\": \"A narrow, empty cobblestone street in Paris at dusk, wet with rain, reflecting the warm glow of vintage streetlamps and shop windows.\",\n    \"lighting\": [\n      \"Cinematic rim lighting\",\n      \"Warm amber streetlights\",\n      \"Soft blue ambient twilight\",\n      \"Volumetric fog\"\n    ],\n    \"camera_angle\": \"Eye-level medium shot, emphasizing the subject's movement against the bokeh background.\",\n    \"emotion\": [\n      \"Liberated\",\n      \"Joyful\",\n      \"Serene\"\n    ],\n    \"color_palette\": [\n      \"Deep obsidian\",\n      \"Amber gold\",\n      \"Rainy blue\",\n      \"Vibrant crimson\"\n    ],\n    \"atmosphere\": [\n      \"Romantic\",\n      \"Melancholic yet joyful\",\n      \"Atmospheric\",\n      \"Wet\"\n    ],\n    \"environmental_elements\": \"Rain falling diagonally, puddles reflecting lights on the ground, mist swirling around ankles.\",\n    \"subject1\": {\n      \"costume\": \"red hat\",\n      \"subject_expression\": \"Eyes closed in pure bliss, a soft smile on her lips, raindrops on her cheeks.\",\n      \"subject_action\": \"dancing\"\n    },\n    \"negative_prompt\": {\n      \"exclude_visuals\": [\n        \"bright daylight\",\n        \"dry pavement\",\n        \"crowds\",\n        \"vehicles\",\n        \"sunglasses\"\n      ],\n      \"exclude_styles\": [\n        \"cartoon\",\n        \"3D render\",\n        \"illustration\",\n        \"oil painting\",\n        \"sketch\"\n      ],\n      \"exclude_colors\": [\n        \"neon green\",\n        \"hot pink\"\n      ],\n      \"exclude_objects\": [\n        \"umbrellas\",\n        \"modern cars\",\n        \"trash cans\"\n      ]\n    }\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Crimson%20Waltz%20in%20the%20Rain",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-498dce83df15",
+    "title": "Manhattan Mirage",
+    "description": "Act as a Manhattan Mirage",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"title\": \"Manhattan Mirage\",\n  \"description\": \"A high-octane, cinematic moment capturing a woman's confident stride through a steam-filled New York intersection during golden hour.\",\n  \"prompt\": \"You will perform an image edit using the provided photo. Create an Ultra-Photorealistic image of the female subject. The style is highly detailed, resembling a frame shot on Arri Alexa with a cinematic 1:1 aspect ratio. Apply heavy depth of field to blur the busy background while keeping the subject sharp. Use cinematic lighting with strong backlight. The subject is wearing a red mini skirt and is walking on the street.\",\n  \"details\": {\n    \"year\": \"1999\",\n    \"genre\": \"Cinematic Photorealism\",\n    \"location\": \"A gritty, bustling New York City intersection at sunset, with steam rising from manholes and blurred yellow taxis in the background.\",\n    \"lighting\": [\n      \"Golden hour backlight\",\n      \"Lens flares\",\n      \"High contrast volumetric lighting\"\n    ],\n    \"camera_angle\": \"Low-angle tracking shot, centered composition.\",\n    \"emotion\": [\n      \"Confident\",\n      \"Empowered\",\n      \"Aloof\"\n    ],\n    \"color_palette\": [\n      \"Crimson red\",\n      \"Asphalt grey\",\n      \"Golden yellow\",\n      \"Deep black\"\n    ],\n    \"atmosphere\": [\n      \"Urban\",\n      \"Dynamic\",\n      \"Cinematic\",\n      \"Energetic\"\n    ],\n    \"environmental_elements\": \"Steam plumes rising from the ground, motion-blurred traffic, flying pigeons, wet pavement reflecting the sunset.\",\n    \"subject1\": {\n      \"costume\": \"red mini skirt\",\n      \"subject_expression\": \"A fierce, confident gaze with slightly parted lips, perhaps wearing vintage sunglasses.\",\n      \"subject_action\": \"walking on the street\"\n    },\n    \"negative_prompt\": {\n      \"exclude_visuals\": [\n        \"empty streets\",\n        \"studio background\",\n        \"overexposed sky\",\n        \"static pose\"\n      ],\n      \"exclude_styles\": [\n        \"cartoon\",\n        \"3D render\",\n        \"illustration\",\n        \"anime\",\n        \"sketch\"\n      ],\n      \"exclude_colors\": [\n        \"neon green\",\n        \"pastel pink\"\n      ],\n      \"exclude_objects\": [\n        \"smartphones\",\n        \"modern cars\",\n        \"futuristic gadgets\"\n      ]\n    }\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Manhattan%20Mirage",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-16bb541776e2",
+    "title": "The Glass Doppelgänger",
+    "description": "Act as a The Glass Doppelgänger",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"title\": \"The Glass Doppelgänger\",\n  \"description\": \"A high-octane psychological thriller scene where a woman is engaged in a visceral physical combat with her own sentient reflection emerging from a shattered surface.\",\n  \"prompt\": \"You will perform an image edit using the provided photo to create a high-budget movie frame. The scene features the subject in a fierce life-or-death struggle against a supernatural mirror entity. The image must be Ultra-Photorealistic, utilizing cinematic lighting and highly detailed textures. The style is that of a blockbuster film, shot on Arri Alexa with a shallow depth of field to emphasize the intensity. Ensure realistic physics for the flying glass shards.\",\n  \"details\": {\n    \"year\": \"2025\",\n    \"genre\": \"Cinematic Photorealism\",\n    \"location\": \"A derelict, neon-lit dressing room with peeling wallpaper and a wall-sized vanity mirror that is shattering outwards.\",\n    \"lighting\": [\n      \"Volumetric stage lighting from above\",\n      \"Flickering fluorescent buzz\",\n      \"Dramatic rim lighting highlighting sweat and glass texture\"\n    ],\n    \"camera_angle\": \"Dynamic low-angle medium shot, slightly Dutch tilted to enhance the chaos.\",\n    \"emotion\": [\n      \"Ferocity\",\n      \"Desperation\",\n      \"Adrenaline\"\n    ],\n    \"color_palette\": [\n      \"Electric cyan\",\n      \"Gritty concrete grey\",\n      \"Deep shadowy blacks\",\n      \"Metallic silver\"\n    ],\n    \"atmosphere\": [\n      \"Violent\",\n      \"Surreal\",\n      \"Claustrophobic\",\n      \"Kinetic\"\n    ],\n    \"environmental_elements\": \"Thousands of micro-shards of glass suspended in the air (bullet-time effect), dust motes dancing in the light beams, overturned furniture.\",\n    \"subject1\": {\n      \"costume\": \"crop top, mini skirt\",\n      \"subject_expression\": \"A primal scream of exertion, eyes wide with intensity.\",\n      \"subject_action\": \"fighting with mirror\"\n    },\n    \"negative_prompt\": {\n      \"exclude_visuals\": [\n        \"cartoonish effects\",\n        \"low resolution\",\n        \"blurry textures\",\n        \"static pose\",\n        \"calm demeanor\"\n      ],\n      \"exclude_styles\": [\n        \"3D render\",\n        \"illustration\",\n        \"painting\",\n        \"anime\"\n      ],\n      \"exclude_colors\": [\n        \"pastel pinks\",\n        \"sunshine yellow\"\n      ],\n      \"exclude_objects\": [\n        \"magical glowing orbs\",\n        \"wands\",\n        \"animals\"\n      ]\n    }\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#The%20Glass%20Doppelg%C3%A4nger",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-85401771c407",
+    "title": "Phantom Strike",
+    "description": "Act as a Phantom Strike",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"title\": \"Phantom Strike\",\n  \"description\": \"An intense, high-octane action shot of a lone warrior battling supernatural entities in a decayed industrial setting.\",\n  \"prompt\": \"You will perform an image edit transforming the subject into an action hero in a supernatural thriller. The image must be photorealistic, highly detailed, and emulate a frame shot on Arri Alexa with cinematic lighting and a shallow depth of field. The scene depicts the female subject in a derelict, flooded subway tunnel, engaged in mortal combat. She is fighting with shadows that seem to manifest as physical, smoky tendrils extending from the darkness. The lighting is dramatic, highlighting the texture of her skin and the splashing water.\",\n  \"details\": {\n    \"year\": \"Modern Day Urban Fantasy\",\n    \"genre\": \"Cinematic Photorealism\",\n    \"location\": \"An abandoned, flooded subway maintenance tunnel with peeling paint and flickering overhead industrial lights.\",\n    \"lighting\": [\n      \"High-contrast chiaroscuro\",\n      \"Cold overhead fluorescent flicker\",\n      \"Volumetric god rays through steam\"\n    ],\n    \"camera_angle\": \"Low-angle dynamic action shot, 1:1 aspect ratio, focusing on the impact of the movement.\",\n    \"emotion\": [\n      \"Fierce\",\n      \"Adrenaline-fueled\",\n      \"Desperate\"\n    ],\n    \"color_palette\": [\n      \"Desaturated concrete greys\",\n      \"Vibrant crimson\",\n      \"Abyssal black\",\n      \"Cold cyan\"\n    ],\n    \"atmosphere\": [\n      \"Kinetic\",\n      \"Claustrophobic\",\n      \"Gritty\",\n      \"Supernatural\"\n    ],\n    \"environmental_elements\": \"Splashing dirty water, floating dust particles, semi-corporeal shadow creatures, sparks falling from a broken light fixture.\",\n    \"subject1\": {\n      \"costume\": \"red mini skirt, black fingerless gloves, a torn white tactical tank top, and heavy laced combat boots.\",\n      \"subject_expression\": \"Teeth gritted in exertion, eyes locked on the target with intense focus.\",\n      \"subject_action\": \"fighting with shadows\"\n    },\n    \"negative_prompt\": {\n      \"exclude_visuals\": [\n        \"sunlight\",\n        \"blue skies\",\n        \"static poses\",\n        \"smiling\",\n        \"cleanliness\"\n      ],\n      \"exclude_styles\": [\n        \"cartoon\",\n        \"anime\",\n        \"3D render\",\n        \"oil painting\",\n        \"sketch\"\n      ],\n      \"exclude_colors\": [\n        \"pastel pink\",\n        \"warm orange\",\n        \"spring green\"\n      ],\n      \"exclude_objects\": [\n        \"guns\",\n        \"swords\",\n        \"modern vehicles\",\n        \"bystanders\"\n      ]\n    }\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Phantom%20Strike",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-01-21T02:27:56.692Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
